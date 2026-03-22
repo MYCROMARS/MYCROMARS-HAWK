@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
 // MYCROMARS HAWK
 // C programming basics
 // ALEXANDER RUDI
@@ -65,28 +61,91 @@ int main()
         switch (menu)
         {
         case 0:
-            /* Exit */
-            // Function
+        /* Exit */
+        // Function
             //mainMenu_0(&menuB);
        
         case 1:
-            /* Calculation */
-            // Function
+        /* Calculation */
+        // Function
             //mainMenu_1(&menuB);
+            // break;
 
         case 2:
-            /* Calculation */
-            // Function
-            //mainMenu_1(&menuB);
+        /* Delay */
+        // Function
+            //mainMenu_2(&menuB);
+            // break;
 
+        case 3:
+        /* Input */
+        // Function
+            //mainMenu_3(&menuB);
+            // break;
 
-            break;
-        
+        case 4:
+        /* Output */
+        // Function
+            //mainMenu_4(&menuB);
+            // break;
+
+        case 5:
+        /* Pointer */
+        // Function
+            //mainMenu_5(&menuB);
+            // break;
+
+        case 6:
+        /* Array */
+        // Function
+            //mainMenu_6(&menuB);
+            // break;
+
+        case 7:
+        /* Loop */
+        // Function
+            //mainMenu_7(&menuB);
+            // break;
+
+        case 8:
+        /* Structure */
+        // Function
+            //mainMenu_8(&menuB);
+            // break;
+
+        case 9:
+        /* Malloc */
+        // Function
+            //mainMenu_9(&menuB);
+            // break;
+
+        case 10:
+        /* Malloc */
+        // Function
+            //mainMenu_10(&menuB);
+            // break;
+
         default:
+        // Output
+            printf("Input is not a number 1...10\n\n");
             break;
         }
     }
+    else {
+        // Output
+        printf("\nInput is not a number 1...10\n\n");
 
+        // Funktion: delate/ catch buffer
+        scanString0();
 
+        // Go here <---
+        goto mainMenu;
+    }
 
+    // assign
+    menu = 0;
+    menuB = 0;
+
+    // goto start
+    goto mainMenu;
 }
