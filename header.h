@@ -19,7 +19,7 @@
 
 
     // **** Include header files
-    //#include "header/mainMenu.h"
+    #include "header/mainMenu.h"
 
     //#include "header/calculation_a.h"
 
@@ -77,7 +77,7 @@
 
 
     // **** Include Main Menu source files
-    // #include "source/mainMenu_0.c"
+    #include "source/mainMenu_0.c"
     // #include "source/mainMenu_1.c"
     // #include "source/mainMenu_2.c"
     // #include "source/mainMenu_3.c"

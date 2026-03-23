@@ -27,7 +27,7 @@ int main()
     printf("C programming basics\n");
     printf("by ALEXANDER RUDI\n");
     printf("2024...2026\n");
-    printf("V 1.0.4\n");
+    printf("V 1.0.4\n\n");
 
     // assign
     int menu = 0;
@@ -38,7 +38,7 @@ int main()
     mainMenu:
 
     // Output
-    printf("*** MAIN MENU ***");
+    printf("*** MAIN MENU ***\n");
     printf("Press (0) EXIT \n");
     printf("Press (1) CALCULATION | (2) DELAY | (3) INPUT | (4) OUTPUT\n");
     printf("Press (5) Pointer | (6) ARRAY | (7) LOOP | (8) STRUCTURE\n");
@@ -63,7 +63,7 @@ int main()
         case 0:
         /* Exit */
         // Function
-            //mainMenu_0(&menuB);
+            mainMenu_0(&menuB);
        
         case 1:
         /* Calculation */
@@ -127,13 +127,13 @@ int main()
 
         default:
         // Output
-            printf("Input is not a number 1...10\n\n");
+            printf("Input is not corect\n\n");
             break;
         }
     }
     else {
         // Output
-        printf("\nInput is not a number 1...10\n\n");
+        printf("\nInput is not correct\n\n");
 
         // Funktion: delate/ catch buffer
         scanString0();
