@@ -7,7 +7,7 @@
 void mainMenu_0(int *m)
 {
     // Output
-    printf("\n%%%%%%%%%%%%%% Program END! %%%%%%%%%%%%%%\n");
+    printf("\n%%%%%%%%%%%%%% Program END %%%%%%%%%%%%%%\n");
     printf("*****************************");
 
     // Exit

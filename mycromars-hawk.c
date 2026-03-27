@@ -68,14 +68,14 @@ int main()
         case 1:
         /* Calculation */
         // Function
-            //mainMenu_1(&menuB);
-            // break;
+            mainMenu_1(&menuB);
+            break;
 
         case 2:
         /* Delay */
         // Function
             //mainMenu_2(&menuB);
-            // break;
+            //break;
 
         case 3:
         /* Input */
