@@ -23,7 +23,7 @@
 
     #include "header/calculation_a.h"
 
-    //#include "header/delay_a.h"
+    #include "header/delay_a.h"
 
     // #include "header/input_a.h"
     // #include "header/input_b.h"
@@ -79,7 +79,7 @@
     // **** Include Main Menu source files
     #include "source/mainMenu_0.c"
     #include "source/mainMenu_1.c"
-    // #include "source/mainMenu_2.c"
+    #include "source/mainMenu_2.c"
     // #include "source/mainMenu_3.c"
     // #include "source/mainMenu_4.c"
     // #include "source/mainMenu_5.c"
@@ -93,7 +93,7 @@
     // **** Include source files
     #include "source/calculation_a.c"
 
-    // #include "source/delay_a.c"
+    #include "source/delay_a.c"
 
     // #include "source/input_a.c"
     // #include "source/input_b.c"

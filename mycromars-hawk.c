@@ -26,8 +26,8 @@ int main()
     printf("MYCROMARS HAWK\n");
     printf("C programming basics\n");
     printf("by ALEXANDER RUDI\n");
-    printf("2024...2026\n");
-    printf("V 1.0.4\n\n");
+    printf("(C) All rights reserved 2026\n");
+    printf("V 1.0.5\n\n");
 
     // assign
     int menu = 0;
@@ -74,8 +74,8 @@ int main()
         case 2:
         /* Delay */
         // Function
-            //mainMenu_2(&menuB);
-            //break;
+            mainMenu_2(&menuB);
+            break;
 
         case 3:
         /* Input */
