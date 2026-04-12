@@ -80,8 +80,8 @@ int main()
         case 3:
         /* Input */
         // Function
-            //mainMenu_3(&menuB);
-            // break;
+            mainMenu_3(&menuB);
+            break;
 
         case 4:
         /* Output */
