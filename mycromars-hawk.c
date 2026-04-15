@@ -86,8 +86,8 @@ int main()
         case 4:
         /* Output */
         // Function
-            //mainMenu_4(&menuB);
-            // break;
+            mainMenu_4(&menuB);
+            break;
 
         case 5:
         /* Pointer */

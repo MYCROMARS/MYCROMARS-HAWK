@@ -29,7 +29,7 @@ void mainMenu_3(int *m)
 
         case 2:
                 // Function: Input B, some numbers, check if it is correct
-                //input_b();
+                input_b();
                 break;
 
         default:

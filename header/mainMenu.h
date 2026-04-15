@@ -5,7 +5,7 @@
     void mainMenu_1(int *m);
     void mainMenu_2(int *m);
     void mainMenu_3(int *m);
-    //void mainMenu_4(int *m);
+    void mainMenu_4(int *m);
     //void mainMenu_5(int *m);
     //void mainMenu_6(int *m);
     //void mainMenu_7(int *m);
