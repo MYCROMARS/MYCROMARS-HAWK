@@ -30,7 +30,7 @@
 
     #include "header/output_a.h"
 
-    // #include "header/pointer_a.h"
+    #include "header/pointer_a.h"
     // #include "header/pointer_b.h"
     // #include "header/pointer_c.h"
     // #include "header/pointer_d.h"
@@ -82,7 +82,7 @@
     #include "source/mainMenu_2.c"
     #include "source/mainMenu_3.c"
     #include "source/mainMenu_4.c"
-    // #include "source/mainMenu_5.c"
+    #include "source/mainMenu_5.c"
     // #include "source/mainMenu_6.c"
     // #include "source/mainMenu_7.c"
     // #include "source/mainMenu_8.c"
@@ -100,7 +100,7 @@
 
     #include "source/output_a.c"
 
-    // #include "source/pointer_a.c"
+    #include "source/pointer_a.c"
     // #include "source/pointer_b.c"
     // #include "source/pointer_c.c"
     // #include "source/pointer_d.c"
