@@ -31,9 +31,9 @@
     #include "header/output_a.h"
 
     #include "header/pointer_a.h"
-    // #include "header/pointer_b.h"
-    // #include "header/pointer_c.h"
-    // #include "header/pointer_d.h"
+    #include "header/pointer_b.h"
+    #include "header/pointer_c.h"
+    #include "header/pointer_d.h"
     // #include "header/pointer_e.h"
     // #include "header/pointer_f.h"
 
@@ -101,11 +101,11 @@
     #include "source/output_a.c"
 
     #include "source/pointer_a.c"
-    // #include "source/pointer_b.c"
-    // #include "source/pointer_c.c"
-    // #include "source/pointer_d.c"
-    // #include "source/pointer_e.c"
-    // #include "source/pointer_f.c"
+    #include "source/pointer_b.c"
+    #include "source/pointer_c.c"
+    #include "source/pointer_d.c"
+    //#include "source/pointer_e.c"
+    //#include "source/pointer_f.c"
 
     // #include "source/array_a.c"
     // #include "source/array_b.c"

@@ -8,9 +8,9 @@ void mainMenu_5(int *m)
 {
     // Output
     printf("\n*** POINTER MENU ***\n");
-    printf("\nPress: (0) EXIT\n");
-    printf("\nPress: (1) POINTER-A | (2) POINTER-B | (3) POINTER-C | (4) POINTER-D\n");
-    printf("\nPress: (5) POINTER-E | (6) POINTER-F \n");
+    printf("Press: (0) EXIT\n");
+    printf("Press: (1) POINTER-A | (2) POINTER-B | (3) POINTER-C | (4) POINTER-D\n");
+    printf("Press: (5) POINTER-E | (6) POINTER-F \n");
     printf("Your Input: ");
 
     // Input
@@ -19,7 +19,7 @@ void mainMenu_5(int *m)
     // Output
     printf("\n");
 
-    // assign
+    // create
     int value_1;
     int value_2;
     int value_3;
@@ -29,6 +29,7 @@ void mainMenu_5(int *m)
     {
         case 0:
                 // Exit
+
                 // assign
                 *m = 0;
 
@@ -43,12 +44,12 @@ void mainMenu_5(int *m)
 
         case 2: 
                 // Function: Pointer B, array
-                //pointer_b();
+                pointer_b();
                 break;
         
         case 3: 
                 // Function: Pointer C, array
-                //pointer_c();
+                pointer_c();
                 break;
 
         case 4: 
@@ -56,7 +57,7 @@ void mainMenu_5(int *m)
                 value_1 = 1234567;
 
                 // Function: Pointer D, address of int to function
-                //pointer_d(&value_1);
+                pointer_d(&value_1);
 
                 // Output
                 printf("Int value 1: %d\n\n", value_1);

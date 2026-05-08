@@ -92,8 +92,8 @@ int main()
         case 5:
         /* Pointer */
         // Function
-            //mainMenu_5(&menuB);
-            // break;
+            mainMenu_5(&menuB);
+            break;
 
         case 6:
         /* Array */
