@@ -71,10 +71,51 @@ void mainMenu_5(int *m)
                 int *pointer_1 = &value_2;
 
                 // Function: Pointer E, address of pointer to function
-                //pointer_e(pointer_1);
+                pointer_e(pointer_1);
 
                 // Output
                 printf("Int value 2: %d\n\n", value_2);
+                break;
+
+        case 6:
+                // Output
+                printf("## POINTER F: Address of pointer to function (b) ###\n\n");
+
+                // assign
+                value_3 = 100;
+                value_4 = 700;
+                int *pointer_2;
+
+                // Address 1 of int to pointer --------------------- 1
+                pointer_2 = &value_3;
+
+                // Output
+                printf("Int value 3: %d\n\n", value_3);
+
+                // Function: Pointer F, address of pointer to function
+                pointer_f(pointer_2);
+
+                // Output
+                printf("Int value 3: %d\n\n", value_3);
+
+                // Address 2 of int to pointer --------------------- 2
+                pointer_2 = &value_4;
+
+                // Output
+                printf("Int value 4: %d\n\n", value_4);
+                // Function: Pointer F, address of pointer to function
+                pointer_f(pointer_2);
+
+                // Output
+                printf("Int value 4: %d\n\n", value_4);
+                break;
+                
+        default:
+                // assign
+                *m = 0;
+
+                // Output
+                printf("### END Pointer ###\n\n");
                 break;
     }
 }   

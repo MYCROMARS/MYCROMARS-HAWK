@@ -98,8 +98,8 @@ int main()
         case 6:
         /* Array */
         // Function
-            //mainMenu_6(&menuB);
-            // break;
+            mainMenu_6(&menuB);
+            break;
 
         case 7:
         /* Loop */
