@@ -38,9 +38,9 @@
     #include "header/pointer_f.h"
 
     #include "header/array_a.h"
-    // #include "header/array_b.h"
-    // #include "header/array_c.h"
-    // #include "header/array_d.h"
+    #include "header/array_b.h"
+    #include "header/array_c.h"
+    #include "header/array_d.h"
     // #include "header/array_e.h"
     // #include "header/array_f.h"
 
@@ -108,9 +108,9 @@
     #include "source/pointer_f.c"
 
     #include "source/array_a.c"
-    // #include "source/array_b.c"
-    // #include "source/array_c.c"
-    // #include "source/array_d.c"
+    #include "source/array_b.c"
+    #include "source/array_c.c"
+    #include "source/array_d.c"
     // #include "source/array_e.c"
     // #include "source/array_f.c"
 

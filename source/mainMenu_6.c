@@ -37,17 +37,17 @@ void mainMenu_6(int *m)
 
         case 2:
                 // Function: Array B, int array [] []
-                //array_b();
+                array_b();
                 break;
 
         case 3:
                 // Function: Array C, float array [] scanf()
-                //array_c();
+                array_c();
                 break;
 
         case 4:
                 // Function: Array D, int array switch number
-                //array_d();
+                array_d();
                 break;
 
         case 5:
