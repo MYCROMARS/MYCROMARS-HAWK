@@ -41,8 +41,8 @@
     #include "header/array_b.h"
     #include "header/array_c.h"
     #include "header/array_d.h"
-    // #include "header/array_e.h"
-    // #include "header/array_f.h"
+    #include "header/array_e.h"
+    #include "header/array_f.h"
 
     // #include "header/loop_a.h"
     // #include "header/loop_b.h"
@@ -111,8 +111,8 @@
     #include "source/array_b.c"
     #include "source/array_c.c"
     #include "source/array_d.c"
-    // #include "source/array_e.c"
-    // #include "source/array_f.c"
+    #include "source/array_e.c"
+    #include "source/array_f.c"
 
     // #include "source/loop_a.c"
     // #include "source/loop_b.c"

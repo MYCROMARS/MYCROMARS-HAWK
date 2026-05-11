@@ -52,12 +52,12 @@ void mainMenu_6(int *m)
 
         case 5:
                 // Function: Array E, int array duplicate numbers
-                //array_e();
+                array_e();
                 break;
 
         case 6:
                 // Function: Array F, char array
-                //array_f();
+                array_f();
                 break;
 
         default:

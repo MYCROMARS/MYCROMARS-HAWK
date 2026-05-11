@@ -113,7 +113,7 @@ int main()
             //mainMenu_8(&menuB);
             // break;
 
-        case 9:
+        case 9: 
         /* Malloc */
         // Function
             //mainMenu_9(&menuB);
