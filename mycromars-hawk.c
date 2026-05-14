@@ -104,8 +104,8 @@ int main()
         case 7:
         /* Loop */
         // Function
-            //mainMenu_7(&menuB);
-            // break;
+            mainMenu_7(&menuB);
+            break;
 
         case 8:
         /* Structure */

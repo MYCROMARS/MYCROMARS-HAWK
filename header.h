@@ -44,7 +44,7 @@
     #include "header/array_e.h"
     #include "header/array_f.h"
 
-    // #include "header/loop_a.h"
+    #include "header/loop_a.h"
     // #include "header/loop_b.h"
     // #include "header/loop_c.h"
     // #include "header/loop_d.h"
@@ -84,7 +84,7 @@
     #include "source/mainMenu_4.c"
     #include "source/mainMenu_5.c"
     #include "source/mainMenu_6.c"
-    // #include "source/mainMenu_7.c"
+    #include "source/mainMenu_7.c"
     // #include "source/mainMenu_8.c"
     // #include "source/mainMenu_9.c"
     // #include "source/mainMenu_10.c"
@@ -114,7 +114,7 @@
     #include "source/array_e.c"
     #include "source/array_f.c"
 
-    // #include "source/loop_a.c"
+    #include "source/loop_a.c"
     // #include "source/loop_b.c"
     // #include "source/loop_c.c"
     // #include "source/loop_d.c"
