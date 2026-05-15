@@ -39,8 +39,8 @@ Chapter 7
             7.3 ------------    LOOP C --------- 53
             7.4 ------------    LOOP D --------- 54
             7.5 ------------    LOOP E --------- 55
-            7.6 ------------    LOOP F --------- 57
-            7.7 ------------    LOOP G --------- 58
+            7.6 ------------    LOOP F --------- 57 fehler: other speling
+            7.7 ------------    LOOP G --------- 58 fehler: Code for: loop_f.c
 Chapter 8
             8.1 Main Menu 8:    STRUCTURE A ---- 60
             8.2 ------------    STRUCTURE B ---- 63

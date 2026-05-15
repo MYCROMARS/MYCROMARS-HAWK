@@ -2,7 +2,7 @@
 // #include <stdio.h>
 // #include "../header/loop_a.h"
 
-// on Windows you can activate this, if it is not working:
+// on Windows activate:
 #include "../header/loop_a.h"
 
 // LOOP A

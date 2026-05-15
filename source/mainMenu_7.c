@@ -37,32 +37,32 @@ void mainMenu_7(int *m)
 
         case 2:
                 // Function: Loop B, for loop
-                loop_a();
+                loop_b();
                 break;
 
         case 3:
                 // Function: Loop C, for loop,  time.h
-                //loop_b();
+                loop_c();
                 break;
 
         case 4:
                 // Function: Loop D, for loop in for loop
-                //loop_c();
+                loop_d();
                 break;
 
         case 5:
                 // Function: Loop E, for loop in for loop
-                //loop_d();
+                loop_e();
                 break;
 
         case 6:
-                // Function: Loop F, for loop & while loop
-                //loop_e();
+                // Function: Loop F, for loop
+                loop_f();
                 break;
 
         case 7:
-                // Function: Loop G, for loop & while loop
-                //loop_f();
+                // Function: Loop G, while loop
+                loop_g();
                 break;
 
         default:
