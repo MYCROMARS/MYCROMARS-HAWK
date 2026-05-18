@@ -52,7 +52,7 @@
     #include "header/loop_f.h"
     #include "header/loop_g.h"
 
-    // #include "header/structure_a.h"
+    #include "header/structure_a.h"
     // #include "header/structure_b.h"
     // #include "header/structure_c.h"
     // #include "header/structure_d.h"
@@ -85,7 +85,7 @@
     #include "source/mainMenu_5.c"
     #include "source/mainMenu_6.c"
     #include "source/mainMenu_7.c"
-    // #include "source/mainMenu_8.c"
+    #include "source/mainMenu_8.c"
     // #include "source/mainMenu_9.c"
     // #include "source/mainMenu_10.c"
 
@@ -122,7 +122,7 @@
     #include "source/loop_f.c"
     #include "source/loop_g.c"
 
-    // #include "source/structure_a.c"
+    #include "source/structure_a.c"
     // #include "source/structure_b.c"
     // #include "source/structure_c.c"
     // #include "source/structure_d.c"
