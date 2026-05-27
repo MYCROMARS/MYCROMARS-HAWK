@@ -53,8 +53,8 @@
     #include "header/loop_g.h"
 
     #include "header/structure_a.h"
-    // #include "header/structure_b.h"
-    // #include "header/structure_c.h"
+    #include "header/structure_b.h"
+    #include "header/structure_c.h"
     // #include "header/structure_d.h"
     // #include "header/structure_e.h"
     // #include "header/structure_f.h"
@@ -123,8 +123,8 @@
     #include "source/loop_g.c"
 
     #include "source/structure_a.c"
-    // #include "source/structure_b.c"
-    // #include "source/structure_c.c"
+    #include "source/structure_b.c"
+    #include "source/structure_c.c"
     // #include "source/structure_d.c"
     // #include "source/structure_e.c"
     // #include "source/structure_f.c"

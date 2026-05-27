@@ -1,7 +1,7 @@
-#ifndef LOOP_G
-    #define LOOP_G
+#ifndef STRUCTURE_A
+    #define STRUCTURE_A
 
-    // LOOP G
-    void loop_g();
+    // STRUCTURE_A
+    void structure_a();
     
 #endif

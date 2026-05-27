@@ -43,7 +43,7 @@ Chapter 7
             7.7 ------------    LOOP G --------- 58 fehler: Code for: loop_f.c
 Chapter 8
             8.1 Main Menu 8:    STRUCTURE A ---- 60
-            8.2 ------------    STRUCTURE B ---- 63
+            8.2 ------------    STRUCTURE B ---- 63 with two a char ?
             8.3 ------------    STRUCTURE C ---- 65
             8.4 ------------    STRUCTURE D ---- 67
             8.5 ------------    STRUCTURE E ---- 69

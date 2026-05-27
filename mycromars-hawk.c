@@ -110,8 +110,8 @@ int main()
         case 8:
         /* Structure */
         // Function
-            //mainMenu_8(&menuB);
-            // break;
+            mainMenu_8(&menuB);
+            break;
 
         case 9: 
         /* Malloc */
