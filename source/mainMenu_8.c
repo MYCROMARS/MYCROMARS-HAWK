@@ -72,12 +72,12 @@ void mainMenu_8(int *m)
 
         case 9:
                 // Function: Structure I, typedef
-                //structure_i();
+                structure_i();
                 break;
 
         case 10:
                 // Function: Structure J, with pointer
-                //structure_j();
+                structure_j();
                 break;
 
         case 11:

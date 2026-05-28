@@ -60,8 +60,8 @@
     #include "header/structure_f.h"
     #include "header/structure_g.h"
     #include "header/structure_h.h"
-    // #include "header/structure_i.h"
-    // #include "header/structure_j.h"
+    #include "header/structure_i.h"
+    #include "header/structure_j.h"
     // #include "header/structure_k.h"
 
     // #include "header/malloc_a.h"
@@ -130,8 +130,8 @@
     #include "source/structure_f.c"
     #include "source/structure_g.c"
     #include "source/structure_h.c"
-    // #include "source/structure_i.c"
-    // #include "source/structure_j.c"
+    #include "source/structure_i.c"
+    #include "source/structure_j.c"
     // #include "source/structure_k.c"
 
     // #include "source/malloc_a.c"
