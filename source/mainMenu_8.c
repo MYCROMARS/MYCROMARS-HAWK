@@ -47,17 +47,17 @@ void mainMenu_8(int *m)
 
         case 4:
                 // Function: Structure D, long, float, double
-                //structure_d();
+                structure_d();
                 break;
 
         case 5:
                 // Function: Structure E, with array
-                //structure_e();
+                structure_e();
                 break;
 
         case 6:
                 // Function: Structure F, copy structure
-                //structure_f();
+                structure_f();
                 break;
 
         case 7:
