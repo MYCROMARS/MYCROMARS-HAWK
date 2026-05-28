@@ -62,12 +62,12 @@ void mainMenu_8(int *m)
 
         case 7:
                 // Function: Structure G, pointer of structure variable, sizeof
-                //structure_g();
+                structure_g();
                 break;
 
         case 8:
                 // Function: Structure H, with 0 initialize
-                //structure_h();
+                structure_h();
                 break;
 
         case 9:
