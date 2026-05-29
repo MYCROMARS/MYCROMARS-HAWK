@@ -55,7 +55,7 @@ Chapter 8
             8.11 -----------    STRUCTURE K ---- 80
 Chapter 9
             9.1 Main Menu 9:    MALLOC A ------- 83
-            9.2 ------------    MALLOC B ------- 86
+            9.2 ------------    MALLOC B ------- 86 main function: void not int!
 Chapter 10
             10.1 Main Menu 10:  DATA A --------- 89
             10.2 ------------   DATA B --------- 92
@@ -64,3 +64,8 @@ Chapter 10
             10.5 ------------   DATA E --------- 100
             10.6 ------------   DATA F --------- 103
             10.7 ------------   DATA G --------- 106
+
+
+            in mycromars-hawk.c
+            case 10: /* Data */
+            

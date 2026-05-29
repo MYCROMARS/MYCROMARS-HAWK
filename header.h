@@ -62,10 +62,10 @@
     #include "header/structure_h.h"
     #include "header/structure_i.h"
     #include "header/structure_j.h"
-    // #include "header/structure_k.h"
+    #include "header/structure_k.h"
 
-    // #include "header/malloc_a.h"
-    // #include "header/malloc_b.h"
+    #include "header/malloc_a.h"
+    #include "header/malloc_b.h"
     
     // #include "header/data_a.h"
     // #include "header/data_b.h"
@@ -86,7 +86,7 @@
     #include "source/mainMenu_6.c"
     #include "source/mainMenu_7.c"
     #include "source/mainMenu_8.c"
-    // #include "source/mainMenu_9.c"
+    #include "source/mainMenu_9.c"
     // #include "source/mainMenu_10.c"
 
 
@@ -132,10 +132,10 @@
     #include "source/structure_h.c"
     #include "source/structure_i.c"
     #include "source/structure_j.c"
-    // #include "source/structure_k.c"
+    #include "source/structure_k.c"
 
-    // #include "source/malloc_a.c"
-    // #include "source/malloc_b.c"
+    #include "source/malloc_a.c"
+    #include "source/malloc_b.c"
 
     // #include "source/data_a.c"
     // #include "source/data_b.c"

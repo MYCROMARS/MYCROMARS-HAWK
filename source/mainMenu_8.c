@@ -82,7 +82,7 @@ void mainMenu_8(int *m)
 
         case 11:
                 // Function: Structure K, with pointer pointer
-                //structure_k();
+                structure_k();
                 break;
 
         default:

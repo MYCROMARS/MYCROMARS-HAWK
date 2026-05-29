@@ -61,72 +61,72 @@ int main()
         switch (menu)
         {
         case 0:
-        /* Exit */
-        // Function
+            /* Exit */
+            // Function
             mainMenu_0(&menuB);
        
         case 1:
-        /* Calculation */
-        // Function
+            /* Calculation */
+            //  Function
             mainMenu_1(&menuB);
             break;
 
         case 2:
-        /* Delay */
-        // Function
+            /* Delay */
+            // Function
             mainMenu_2(&menuB);
             break;
 
         case 3:
-        /* Input */
-        // Function
+            /* Input */
+            // Function
             mainMenu_3(&menuB);
             break;
 
         case 4:
-        /* Output */
-        // Function
+            /* Output */
+            //  Function
             mainMenu_4(&menuB);
             break;
 
         case 5:
-        /* Pointer */
-        // Function
+            /* Pointer */
+            // Function
             mainMenu_5(&menuB);
             break;
 
         case 6:
-        /* Array */
-        // Function
+            /* Array */
+            // Function
             mainMenu_6(&menuB);
             break;
 
         case 7:
-        /* Loop */
-        // Function
+            /* Loop */
+            // Function
             mainMenu_7(&menuB);
             break;
 
         case 8:
-        /* Structure */
-        // Function
+            /* Structure */
+            // Function
             mainMenu_8(&menuB);
             break;
 
         case 9: 
-        /* Malloc */
-        // Function
-            //mainMenu_9(&menuB);
-            // break;
+            /* Malloc */
+            // Function
+            mainMenu_9(&menuB);
+            break;
 
         case 10:
-        /* Malloc */
-        // Function
+            /* Malloc */
+            // Function
             //mainMenu_10(&menuB);
-            // break;
+            break;
 
         default:
-        // Output
+            // Output
             printf("Input is not corect\n\n");
             break;
         }
