@@ -122,7 +122,7 @@ int main()
         case 10:
             /* Malloc */
             // Function
-            //mainMenu_10(&menuB);
+            mainMenu_10(&menuB);
             break;
 
         default:

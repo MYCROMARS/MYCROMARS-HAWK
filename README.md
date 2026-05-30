@@ -57,9 +57,9 @@ Chapter 9
             9.1 Main Menu 9:    MALLOC A ------- 83
             9.2 ------------    MALLOC B ------- 86 main function: void not int!
 Chapter 10
-            10.1 Main Menu 10:  DATA A --------- 89
+            10.1 Main Menu 10:  DATA A --------- 89 info save.dat
             10.2 ------------   DATA B --------- 92
-            10.3 ------------   DATA C --------- 94
+            10.3 ------------   DATA C --------- 94 descriptin data_c.c
             10.4 ------------   DATA D --------- 97
             10.5 ------------   DATA E --------- 100
             10.6 ------------   DATA F --------- 103

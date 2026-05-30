@@ -1,0 +1,109 @@
+// on macOS activate:
+// #include <stdio.h>
+// #include <stdlib.h>
+// #include "../header/data_c.h"
+
+// on Windows activate:
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Data C
+
+// Main function
+void data_c(void)
+{
+    // Output
+    printf("### DATE C: File open for reading integer. ###\n\n");
+    
+    // assign
+    int value_1 = 0;
+    int readCount = 0;
+    char text[100];
+    
+    // typedef
+    FILE *read;
+    
+    // Open file
+    read = fopen("save.dat", "r");
+    
+    // You could activate one of the following code, and deactivate all others:
+    
+    // Read Numbers with: fscanf() ------------------------------------------
+    if(read == NULL)
+    {
+        puts("! error !");
+        exit (EXIT_FAILURE);
+    }
+    else
+    {
+        puts("!! successful !!.");
+        
+        while (fscanf(read, "%d", &value_1) !=EOF)
+        {
+            readCount++;
+        }
+
+        printf("read value 1: %d\n", value_1);
+        printf("read count: %d\n", readCount);
+        fclose(read);
+        
+        puts("File closed\n\n");
+    }
+    
+    /*
+    // Read string with: fgetc() ---------------------------------------------
+    if (read != NULL)
+    {
+        printf("!! successful !!\n");
+
+        while ((text[readCount] = fgetc(read)) != EOF)
+        {
+            // Output
+            putchar(text[readCount]);
+            readCount++;
+        }
+    
+        fclose(read);
+    
+        // Output not correct
+        printf("\nRead value: %s\n\n", text);
+
+    } else printf("! error !\n");
+    */
+
+
+    
+    // Read string with: fscanf() ---------------------------------------------
+    /*
+    if(read == NULL)
+    {
+        // Output
+        puts("! error !");
+        
+        // Exit
+        exit (EXIT_FAILURE);
+    }
+    else
+    {
+        // Output
+        puts("!! successful !!");
+        
+        // read
+        while (fscanf(read, "%s", &text[0]) !=EOF)
+        {
+            readCount++;
+        }
+        
+        // Output
+        printf("read text: %s\n", text);
+        printf("read count: %d\n", readCount);
+        
+        // Close
+        fclose(read);
+        
+        // Output
+        puts("File closed\n\n");
+    }
+    */
+} 

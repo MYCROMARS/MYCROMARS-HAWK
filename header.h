@@ -67,9 +67,9 @@
     #include "header/malloc_a.h"
     #include "header/malloc_b.h"
     
-    // #include "header/data_a.h"
-    // #include "header/data_b.h"
-    // #include "header/data_c.h"
+    #include "header/data_a.h"
+    #include "header/data_b.h"
+    #include "header/data_c.h"
     // #include "header/data_d.h"
     // #include "header/data_e.h"
     // #include "header/data_f.h"
@@ -87,7 +87,7 @@
     #include "source/mainMenu_7.c"
     #include "source/mainMenu_8.c"
     #include "source/mainMenu_9.c"
-    // #include "source/mainMenu_10.c"
+    #include "source/mainMenu_10.c"
 
 
     // **** Include source files
@@ -137,9 +137,9 @@
     #include "source/malloc_a.c"
     #include "source/malloc_b.c"
 
-    // #include "source/data_a.c"
-    // #include "source/data_b.c"
-    // #include "source/data_c.c"
+    #include "source/data_a.c"
+    #include "source/data_b.c"
+    #include "source/data_c.c"
     // #include "source/data_d.c"
     // #include "source/data_e.c"
     // #include "source/data_f.c"
