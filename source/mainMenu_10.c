@@ -48,12 +48,12 @@ void mainMenu_10(int *m)
 
         case 4:
                 // Function: Data D, file successfully opened for reading string.
-                //data_d();
+                data_d();
                 break;
 
         case 5:
                 // Function: Data E, file successfully opened for reading 2 strings.
-                //data_e();
+                data_e();
                 break;
 
         case 6:

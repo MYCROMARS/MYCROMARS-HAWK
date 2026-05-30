@@ -70,8 +70,8 @@
     #include "header/data_a.h"
     #include "header/data_b.h"
     #include "header/data_c.h"
-    // #include "header/data_d.h"
-    // #include "header/data_e.h"
+    #include "header/data_d.h"
+    #include "header/data_e.h"
     // #include "header/data_f.h"
     // #include "header/data_g.h"
 
@@ -140,8 +140,8 @@
     #include "source/data_a.c"
     #include "source/data_b.c"
     #include "source/data_c.c"
-    // #include "source/data_d.c"
-    // #include "source/data_e.c"
+    #include "source/data_d.c"
+    #include "source/data_e.c"
     // #include "source/data_f.c"
     // #include "source/data_g.c"
 
