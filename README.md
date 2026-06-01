@@ -62,8 +62,8 @@ Chapter 10
             10.3 ------------   DATA C --------- 94 descriptin data_c.c
             10.4 ------------   DATA D --------- 97
             10.5 ------------   DATA E --------- 100 Output ch?
-            10.6 ------------   DATA F --------- 103
-            10.7 ------------   DATA G --------- 106
+            10.6 ------------   DATA F --------- 103 description data_f.c a
+            10.7 ------------   DATA G --------- 106 description data_g.c a
 
 
             in mycromars-hawk.c

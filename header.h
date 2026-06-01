@@ -72,8 +72,8 @@
     #include "header/data_c.h"
     #include "header/data_d.h"
     #include "header/data_e.h"
-    // #include "header/data_f.h"
-    // #include "header/data_g.h"
+    #include "header/data_f.h"
+    #include "header/data_g.h"
 
 
     // **** Include Main Menu source files
@@ -142,8 +142,8 @@
     #include "source/data_c.c"
     #include "source/data_d.c"
     #include "source/data_e.c"
-    // #include "source/data_f.c"
-    // #include "source/data_g.c"
+    #include "source/data_f.c"
+    #include "source/data_g.c"
 
 #endif
 

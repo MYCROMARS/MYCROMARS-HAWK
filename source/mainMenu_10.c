@@ -58,12 +58,12 @@ void mainMenu_10(int *m)
 
         case 6:
                 // Function: Data F, file successfully opened for reading int Array.
-                //data_f();
+                data_f();
                 break;
 
         case 7:
                 // Function: Data G, file successfully opened for reading int Array.
-                //data_g();
+                data_g();
                 break;
 
         default:
