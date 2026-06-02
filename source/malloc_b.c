@@ -1,10 +1,7 @@
-// on macOS activate:
+// if it's not working acivate this:
 //#include <stdio.h>
 //#include <stdlib.h>
 //#include "../header/malloc_b.h"
-
-// on Windows activate:
-//#include <stdlib.h>
 
 // Malloc B
 

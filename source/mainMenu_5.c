@@ -1,4 +1,4 @@
-// on macOS acitvate:
+// if it's not working acivate this:
 // #include <stdio.h>
 
 // OUTPUT MENU 5

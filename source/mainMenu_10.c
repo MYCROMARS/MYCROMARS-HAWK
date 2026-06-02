@@ -1,9 +1,6 @@
-// on macOS activate:
+// if it's not working acivate this:
 // #include <stdio.h>
-
-// on Windows activate:
-//#include <stdio.h>
-#include <stdlib.h>
+// #include <stdlib.h>
 
 // DATA MENU 10
 

@@ -1,12 +1,8 @@
-// on macOS activate:
+// if it's not working acivate this:
 // #include <stdio.h>
 // #include <stdlib.h>
+// #include <string.h>
 // #include "../header/data_f.h"
-
-// on Windows activate:
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 // Data F
 

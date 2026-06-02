@@ -1,4 +1,4 @@
-// on macOS activate:
+// if it's not working acivate this:
 // #include "../header/delay_a.h"
 
 // Delay A

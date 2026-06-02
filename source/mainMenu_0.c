@@ -1,5 +1,5 @@
-// on macOS activate:
-#include <stdlib.h>
+// if it's not working acivate this:
+// #include <stdlib.h>
 
 // EXIT MENU
 

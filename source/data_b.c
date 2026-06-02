@@ -1,6 +1,7 @@
-// on macOS activate:
+// if it's not working acivate this:
 // #include <stdio.h>
 // #include <stdlib.h>
+// #include <string.h>
 // #include "../header/data_b.h"
 
 // Data B

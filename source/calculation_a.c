@@ -1,4 +1,4 @@
-// on macOS activate:
+// if it's not working acivate this:
 // #include <stdio.h>
 // #include "../header/calculation_a.h"
 
@@ -8,6 +8,7 @@
 // #include <synchapi.h>
 
 // Calculation A
+
 // Main function
 void calculation_a(void)
 {

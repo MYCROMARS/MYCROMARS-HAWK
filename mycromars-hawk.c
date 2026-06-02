@@ -26,7 +26,7 @@ int main()
     printf("MYCROMARS HAWK\n");
     printf("C programming basics\n");
     printf("by ALEXANDER RUDI\n");
-    printf("(C) All rights reserved 2026\n");
+    printf("(C) All rights reserved 2024 ... 2026\n");
     printf("V 1.0.5\n\n");
 
     // assign

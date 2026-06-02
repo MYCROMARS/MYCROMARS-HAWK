@@ -1,4 +1,4 @@
-// on macOS activate:
+// if it's not working acivate this:
 // #include <stdio.h>
 // #include "../header/loop_e.h"
 
