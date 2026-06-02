@@ -1,5 +1,7 @@
-# MYCROMARS HAWK
-C programming bascics
+MYCROMARS HAWK V 1.0.5
+C programming basics
+Developer: ALEXANDER RUDI
+(C) All rights reserved 2024 ... 2026 MYCROMARS
 
 Content
 Prologue  --------------------------------- 1
