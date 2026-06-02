@@ -39,11 +39,11 @@ Chapter 7
             7.3 ------------    LOOP C --------- 53
             7.4 ------------    LOOP D --------- 54
             7.5 ------------    LOOP E --------- 55
-            7.6 ------------    LOOP F --------- 57 fehler: other speling
-            7.7 ------------    LOOP G --------- 58 fehler: Code for: loop_f.c
+            7.6 ------------    LOOP F --------- 57 
+            7.7 ------------    LOOP G --------- 58 
 Chapter 8
             8.1 Main Menu 8:    STRUCTURE A ---- 60
-            8.2 ------------    STRUCTURE B ---- 63 with two a char ?
+            8.2 ------------    STRUCTURE B ---- 63 
             8.3 ------------    STRUCTURE C ---- 65
             8.4 ------------    STRUCTURE D ---- 67
             8.5 ------------    STRUCTURE E ---- 69
@@ -55,17 +55,12 @@ Chapter 8
             8.11 -----------    STRUCTURE K ---- 80
 Chapter 9
             9.1 Main Menu 9:    MALLOC A ------- 83
-            9.2 ------------    MALLOC B ------- 86 main function: void not int!
+            9.2 ------------    MALLOC B ------- 86 
 Chapter 10
-            10.1 Main Menu 10:  DATA A --------- 89 info save.dat
+            10.1 Main Menu 10:  DATA A --------- 89 
             10.2 ------------   DATA B --------- 92
-            10.3 ------------   DATA C --------- 94 descriptin data_c.c
+            10.3 ------------   DATA C --------- 94 
             10.4 ------------   DATA D --------- 97
-            10.5 ------------   DATA E --------- 100 Output ch?
-            10.6 ------------   DATA F --------- 103 description data_f.c a
-            10.7 ------------   DATA G --------- 106 description data_g.c a
-
-
-            in mycromars-hawk.c
-            case 10: /* Data */
-            
+            10.5 ------------   DATA E --------- 100 
+            10.6 ------------   DATA F --------- 103 
+            10.7 ------------   DATA G --------- 106 
