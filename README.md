@@ -1,7 +1,8 @@
 MYCROMARS HAWK V 1.0.5
 C programming basics
-Developer: ALEXANDER RUDI
-(C) All rights reserved 2024 ... 2026 MYCROMARS
+ALEXANDER RUDI
+MYCROMARS 2024 ... 2026
+Licensed under the terms of the GNU General Public License v3.0.
 
 Content
 Prologue  --------------------------------- 1

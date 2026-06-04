@@ -1,7 +1,8 @@
 // MYCROMARS HAWK V 1.0.5
 // C programming basics
-// Developer: ALEXANDER RUDI
-// (C) All rights reserved 2024 ... 2026 MYCROMARS
+// ALEXANDER RUDI
+// MYCROMARS 2024 ... 2026
+// Licensed: GNU General Public License v3.0.
 
 // header file
 #include "header.h"
@@ -25,8 +26,9 @@ int main()
     printf("***********************\n");
     printf("MYCROMARS HAWK V 1.0.5\n");
     printf("C programming basics\n");
-    printf("Developer: ALEXANDER RUDI\n");
-    printf("(C) All rights reserved 2024 ... 2026 MYCROMARS\n");
+    printf("ALEXANDER RUDI\n");
+    printf("MYCROMARS 2024 ... 2026\n");
+    printf("Licensed: GNU General Public License v3.0.\n");
 
     // assign
     int menu = 0;
