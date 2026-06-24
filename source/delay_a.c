@@ -6,7 +6,7 @@
 // Main function 
 void delay_a(double value_1)
 {
-    // assign
+    // Assign
     int menu = 0;
     double value_2 = 1;
     double step = 100;

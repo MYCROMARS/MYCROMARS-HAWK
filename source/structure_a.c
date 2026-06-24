@@ -24,7 +24,7 @@ void structure_a(void)
     // other spelling:
     // struct house1 h1_apartment_1, h1_apartment_2;
     
-    // assign
+    // Assign
     ha1_apartment_1.window = 5;
     ha1_apartment_1.door = 2;
     ha1_apartment_2.window = 7;
@@ -42,7 +42,7 @@ void structure_a(void)
         // Structure Directory (declaration)
     } ha2_apartment_1, ha2_apartment_2;
 
-    // assign
+    // Assign
     ha2_apartment_1.window = 5;
     ha2_apartment_1.door = 3;
     ha2_apartment_2.window = 10;

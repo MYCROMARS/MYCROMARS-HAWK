@@ -8,8 +8,10 @@
 void pointer_a() {
     printf("### POINTER A: Pointer of int ###\n\n");
 
-    // int
+    // create
     int value;
+
+    // Assign
     value = 700;
 
     // Output
@@ -20,7 +22,7 @@ void pointer_a() {
     // Pointer
     int *p;
 
-    // Address of int to pointer
+    // Assign Address of int to pointer
     p = &value;
 
     // Output

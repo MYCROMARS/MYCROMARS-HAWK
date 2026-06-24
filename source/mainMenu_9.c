@@ -1,7 +1,7 @@
 // if it's not working acivate this:
 // #include <stdio.h>
 
-// MALLOC MENU 9
+// Main Menu 9: MALLOC 
 
 // Main function
 void mainMenu_9(int *m)
@@ -21,7 +21,7 @@ void mainMenu_9(int *m)
     switch (*m)
     {
         case 0:
-                // assign
+                // Assign
                 *m = 0;
 
                 // Output
@@ -39,7 +39,7 @@ void mainMenu_9(int *m)
                 break;
 
         default:
-                // assign
+                // Assign
                 *m = 0;
 
                 // Output

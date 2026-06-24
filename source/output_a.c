@@ -1,5 +1,5 @@
 // if it's not working acivate this:
-// #include <stdio.h>
+#include <stdio.h>
 // #include "../header/output_a.h"
 
 // Output A
@@ -8,6 +8,7 @@ void output_a(void) {
     // Output
     printf("\n### OUTPUT A ###\n\n");
     printf("With printf(): Hello World\n");
+    
     // Output: putc
     printf("With putc(): ");
     putc('H', stdout);

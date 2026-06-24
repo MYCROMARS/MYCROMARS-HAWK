@@ -18,7 +18,7 @@ void structure_e(void)
     // Structure Directory (declaration)
     struct house_e1 eh1_apartment_1[3];
     
-    // assign
+    // Assign
     eh1_apartment_1[0].room_1[0] = 10;
     eh1_apartment_1[0].room_1[1] = 20;
     eh1_apartment_1[0].room_1[2] = 30;

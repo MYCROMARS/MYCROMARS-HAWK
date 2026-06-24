@@ -1,6 +1,6 @@
 // if it's not working acivate this:
-//#include <stdio.h>
-//#include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 //#include "../header/malloc_b.h"
 
 // Malloc B
@@ -8,10 +8,10 @@
 // function
 int *startMalloc(unsigned int value) {
 
-    // assign Pointer: malloc
+    // Assign Pointer: malloc
     int *pointer = malloc(value*(sizeof(int)));
 
-    //store some data, NULL need stdio.h
+    // store some data, NULL need stdio.h
     if(pointer !=NULL) {
         for (unsigned int i=0; i<value; i++) {
             
@@ -40,7 +40,7 @@ void malloc_b(void)
     // Output
     printf("### Malloc B: with input ###\n\n");
     
-    // assign
+    // Assign
     unsigned int value_1 = 0;
     
     // Output
@@ -51,17 +51,16 @@ void malloc_b(void)
     
         // Output
         printf("! Error !\n\n");
-        
-        // need: stdlib.h
-        return EXIT_FAILURE;
+
+        exit(EXIT_SUCCESS);
     }
     
-    // assign Pointer: function
+    // Assign Pointer: function
     int *store = startMalloc(value_1);
 
     if (store == NULL){
         printf("! Error !\n");
-        return EXIT_FAILURE;
+        exit(EXIT_SUCCESS);
     }
     
     // Output
@@ -73,8 +72,8 @@ void malloc_b(void)
         printf("store[%u]: %u\n", i, store[i]);
     }
     
-    // Output: line break
-    printf("\n");
+    // Output:
+    printf("\nMALLOC END\n");
 
     if (store != NULL) {
     
@@ -82,5 +81,5 @@ void malloc_b(void)
         free(store);
     }
 
-    return EXIT_SUCCESS;
+    exit(EXIT_SUCCESS);
 }

@@ -1,7 +1,7 @@
 // if it's not working acivate this:
 // #include <stdio.h>
 
-// LOOP MENU 7
+// Main Menu 7: LOOP 
 
 // Main function
 void mainMenu_7(int *m)
@@ -23,7 +23,7 @@ void mainMenu_7(int *m)
     {
         case 0:
                 // Exit
-                // assign
+                // Assign
                 *m = 0;
 
                 // Output
@@ -66,7 +66,7 @@ void mainMenu_7(int *m)
                 break;
 
         default:
-                // assign
+                // Assign
                 *m = 0;
 
                 // Output

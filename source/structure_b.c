@@ -28,7 +28,7 @@ void structure_b(void){
         // Structure Directory (declaration)
     } hb2_apartment_1;
     
-    // assign
+    // Assign
     hb2_apartment_1.x = 'B';
     hb2_apartment_1.y[0] = 'B';
     hb2_apartment_1.y[1] = 'C';
@@ -39,7 +39,7 @@ void structure_b(void){
     printf("Char y, Letter 1: %c\n", hb2_apartment_1.y[0]); // B
     printf("Char y, Letter 2: %c\n", hb2_apartment_1.y[1]); // C
     
-    // assign
+    // Assign
     strcpy(hb2_apartment_1.y,"XY");
     
     // Output

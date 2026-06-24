@@ -18,7 +18,7 @@ void structure_f(void)
     // Structure directory (declaration)
     struct house_f1 fh1_apartment_1, fh1_apartment_2;
     
-    // assign
+    // Assign
     fh1_apartment_1.value = 7;
     fh1_apartment_2.value = 0;
     
@@ -27,7 +27,7 @@ void structure_f(void)
     printf("Apartment 1, value:\t %d\n", fh1_apartment_1.value);
     printf("Apartment 2, value:\t %d\n\n", fh1_apartment_2.value);
     
-    // copy struct
+    // Copy struct
     printf("Copy Structure\n");
     fh1_apartment_2 = fh1_apartment_1;
     

@@ -9,7 +9,7 @@ void loop_c(void)
 {
     printf("### Loop C: For loop, sunday's in july 2025 ###\n\n");
 
-    // assign: 1. Sunday: 6. July 2025
+    // Assign: 1. Sunday: 6. July 2025
     int sunday = 6;
     int value_1;
 

@@ -12,7 +12,7 @@ void data_a(void)
     // Output
     printf("### DATE A: File open/create for writing to end of file. ###\n\n");
     
-    // assign
+    // Assign
     int value_1 = 700;
     
     // typedef, create a pointer
@@ -25,6 +25,7 @@ void data_a(void)
     {
         // Output
         puts("! error !");
+        
         // Exit
         exit (EXIT_FAILURE);
     }

@@ -8,7 +8,7 @@
 
 // Structure K
 
-// typedef
+// Typedef
 typedef struct house_1
 {
     int value_1;
@@ -65,8 +65,9 @@ void structure_k(void)
     // Function
     start();
     
-    // input
+    // Input
     getchar();
+
     if(getchar() == 'y'){
         // Function
         input(kh1_apartment_1);

@@ -4,7 +4,7 @@
 
 // Structure J
 
-// typedef
+// Typedef
 typedef struct house_j1{
     int value_1;
     int value_2;
@@ -22,7 +22,7 @@ void print_j1(jh1_datatype jh1_apartment_1)
 
 // Function 3: Structure directory (declaration)
 void multiply_2(jh1_datatype ***pointer_3){
-    // assign
+    // Assign
     (**pointer_3)->value_1 *= 10;
     (**pointer_3)->value_2 *= 10;
 }
@@ -30,7 +30,7 @@ void multiply_2(jh1_datatype ***pointer_3){
 // Function 2: Structure directory (declaration)
 void multiply_1(jh1_datatype **pointer_2)
 {
-    // assign
+    // Assign
     (*pointer_2)->value_1 *= 10;
     (*pointer_2)->value_2 *= 10;
     
@@ -45,7 +45,7 @@ void startFunction(jh1_datatype *pointer_1)
     //pointer_1->value_1 = 5;
     //pointer_1->value_2 = 8;
 
-    // assign
+    // Assign
     strcpy(pointer_1->text_1, "Doll");
 
     // Function: Address to pointer
@@ -79,11 +79,11 @@ void structure_j(void)
     // Structure 2: Directory (declaration)
     jh1_datatype jh1_apartment_2;
 
-    // assign
+    // Assign
     jh1_apartment_2.value_1 = 10;
     jh1_apartment_2.value_2 = 70;
 
-    // assign: need #include <string.h>
+    // Assign: need #include <string.h>
     strcpy(jh1_apartment_2.text_1, "Car");
 
     // Output:

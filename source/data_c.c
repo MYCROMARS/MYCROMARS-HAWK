@@ -12,12 +12,12 @@ void data_c(void)
     // Output
     printf("### DATE C: File open for reading integer. ###\n\n");
     
-    // assign
+    // Assign
     int value_1 = 0;
     int readCount = 0;
     char text[100];
     
-    // typedef
+    // Typedef
     FILE *read;
     
     // Open file

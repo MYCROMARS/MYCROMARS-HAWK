@@ -12,15 +12,16 @@ void loop_a(void)
     // Output
     printf("### Loop A: While loop 1...12 ###\n\n");
 
-    // assign
+    // Assign
     int value = 1;
 
-    // loop
+    // Loop
     while(value <= DOZEN)
     {
         // Output
         printf("value: %d\n", value);
-        // assign
+
+        // Assign
         value++;
     }
 

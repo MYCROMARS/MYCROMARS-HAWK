@@ -12,10 +12,10 @@ void data_b(void)
     // Output
     printf("### DATE B: File open/create for writing/overwriting. ###\n\n");
     
-    // assign
+    // Assign
     int value_1 = 100;
     
-    // typedef, create a pointer
+    // Typedef, create a pointer
     FILE *save;
     
     // Open file
@@ -25,6 +25,7 @@ void data_b(void)
     {
         // Output
         puts("! error !");
+        
         // Exit
         exit (EXIT_FAILURE);
     }

@@ -2,7 +2,7 @@
 // #include <stdio.h>
 // #include <stdlib.h>
 
-// DATA MENU 10
+// Main Menu 10: DATA
 
 // Main function
 void mainMenu_10(int *m)
@@ -23,8 +23,9 @@ void mainMenu_10(int *m)
     switch (*m)
     {
         case 0:
-                // assign
+                // Assign
                 *m = 0;
+
                 // Output
                 printf("### EXIT DATA ###\n\n");
                 break;
@@ -64,8 +65,9 @@ void mainMenu_10(int *m)
                 break;
 
         default:
-                // assign
+                // Assign
                 *m = 0;
+                
                 // Output
                 printf("### END DATA ###\n\n");
                 break;

@@ -11,7 +11,7 @@ void array_c(void)
     printf("### Array C: Input value's 1...7 ###\n\n");
     printf("Value input 1...7:\n");
 
-    // assign
+    // Assign
     float value[7];
     int x;
 
@@ -21,7 +21,7 @@ void array_c(void)
         // Output
         printf("Input #%d: ", x+1);
 
-        // input
+        // Input
         scanf("%f", &value[x]);
     }
 

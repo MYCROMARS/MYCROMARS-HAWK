@@ -10,7 +10,7 @@ void array_e(void)
     // Output
     printf("### Array E: Duplicate value 1...7 ###\n\n");
 
-    // assign
+    // Assign
     int value[7] = {1, 2, 3, 4, 5, 6, 7};
     int duplicate[7];
     int x;

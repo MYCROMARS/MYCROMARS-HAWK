@@ -12,13 +12,13 @@ void data_d(void)
     // Output
     printf("### DATE D: File open for write, reading. ###\n\n");
     
-    // assign
+    // Assign
     char text_1[] = "Hello";
     
-    // typedef
+    // Typedef
     FILE *save;
     
-    // file open
+    // File open
     save = fopen("save.dat", "w");
 
     if(save == NULL)
@@ -48,16 +48,16 @@ void data_d(void)
 
     // ### Read file
 
-    // define
+    // Define
     char text_2[20];
     
-    // assign
+    // Assign
     int readCount = 0;
     
     // for testing, assign
     // strcpy(text_2,"Hello");
     
-    // typedef
+    // Typedef
     FILE *read;
     
     // open

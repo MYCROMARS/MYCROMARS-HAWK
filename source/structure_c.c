@@ -19,7 +19,7 @@ void structure_c(void){
         // Structure Directory
     } ch1_apartment_1;
    
-    // assign
+    // Assign
     strcpy(ch1_apartment_1.toy_1,"Ball");
     strcpy(ch1_apartment_1.toy_2,"Car");
     strcpy(ch1_apartment_1.toy_3,"Water gun");
@@ -45,15 +45,15 @@ void structure_c(void){
       // Structure directory (declaration)
     } ch2_apartment_1;
     
-    // assign
+    // Assign
     ch2_apartment_1.value_1 = 7;
     
-    // assign
+    // Assign
     strcpy(ch2_apartment_1.ch1_apartment_2.toy_1,"Football");
     strcpy(ch2_apartment_1.ch1_apartment_2.toy_2,"Electric Car");
     strcpy(ch2_apartment_1.ch1_apartment_2.toy_3,"Slingshot");
     
-    // assign
+    // Assign
     strcpy(ch2_apartment_1.ch3_apartment_1.toy_1,"Doll");
     
     // Output

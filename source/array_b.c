@@ -10,7 +10,7 @@ void array_b(void)
     printf("### Array B: Two-dimensional ###\n\n");
     printf("Value [4]][4]: {{1, 2, 3, 4},{10, 20, 30, 40},{100 200, 300, 400},{1000, 2000, 3000,4000}}\n\n");
 
-    // assign
+    // Assign
     int value[ArraySize_b][ArraySize_b] = {{1,2,3,4},{10, 20, 30, 40},{100, 200, 300, 400},{1000,2000, 3000, 4000}};
 
     // Output

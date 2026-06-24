@@ -12,11 +12,11 @@ void data_e(void)
     // Output
     printf("### DATE E: File open for reading 2 strings. ###\n\n");
     
-    // assign
+    // Assign
     char text_1[] = "Hello";
     char text_2[] = "World";
     
-    // typedef
+    // Typedef
     FILE *save;
     
     // File open
@@ -46,12 +46,12 @@ void data_e(void)
     } 
 
     // ### Read file
-    // assign
+    // Assign
     char text_3[20];
     char text_4[20];
     int readCount = 0;
     
-    // typedef
+    // Typedef
     FILE *read;
     
     // File open

@@ -1,7 +1,7 @@
 // if it's not working acivate this:
 // #include <stdio.h>
 
-// OUTPUT MENU 5
+// Main Menu 5: OUTPUT 
 
 // Main function
 void mainMenu_5(int *m)
@@ -30,7 +30,7 @@ void mainMenu_5(int *m)
         case 0:
                 // Exit
 
-                // assign
+                // Assign
                 *m = 0;
 
                 // Output
@@ -53,7 +53,7 @@ void mainMenu_5(int *m)
                 break;
 
         case 4: 
-                // assign
+                // Assign
                 value_1 = 1234567;
 
                 // Function: Pointer D, address of int to function
@@ -64,7 +64,7 @@ void mainMenu_5(int *m)
                 break;
         
         case 5:
-                // assign
+                // Assign
                 value_2 = 7;
 
                 // assign: Address of int to pointer
@@ -81,7 +81,7 @@ void mainMenu_5(int *m)
                 // Output
                 printf("## POINTER F: Address of pointer to function (b) ###\n\n");
 
-                // assign
+                // Assign
                 value_3 = 100;
                 value_4 = 700;
                 int *pointer_2;
@@ -103,6 +103,7 @@ void mainMenu_5(int *m)
 
                 // Output
                 printf("Int value 4: %d\n\n", value_4);
+
                 // Function: Pointer F, address of pointer to function
                 pointer_f(pointer_2);
 
@@ -111,7 +112,7 @@ void mainMenu_5(int *m)
                 break;
                 
         default:
-                // assign
+                // Assign
                 *m = 0;
 
                 // Output

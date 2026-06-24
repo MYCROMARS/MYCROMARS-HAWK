@@ -13,7 +13,7 @@ void malloc_a(void)
     // This is not necessary, but it is written in some books:
     //void* malloc(size_t size);
     
-    // assign
+    // Assign
     int *pointer;
     
     // Storeage reservation

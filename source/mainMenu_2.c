@@ -1,9 +1,9 @@
-// DELAY MENU 2
+// Main Menu 2: DELAY
 
 // Main function
 void mainMenu_2(int *m)
 {
-    // assign
+    // Assign
     int value = 0;
 
     // Output
@@ -16,6 +16,6 @@ void mainMenu_2(int *m)
     // Function: Delay A
     delay_a(value);
     
-    // assign
+    // Assign
     value = 0;
 }

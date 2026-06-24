@@ -11,7 +11,7 @@ void pointer_e(int *pointer){
     printf("### POINTER E: Address of pointer to function (a) ###\n\n");
     printf("Pointer: %d\n", *pointer);
 
-    // assign
+    // Assign
     *pointer = 0;
 
     // Outputs

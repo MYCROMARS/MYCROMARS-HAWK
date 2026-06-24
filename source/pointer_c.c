@@ -13,20 +13,20 @@ void pointer_c(void)
     printf("Pointer = value\n");
     printf("For loop x < 7:\n\n");
 
-    // Array
+    // create Array
     int value[7] = {1, 2, 3, 4, 5, 6, 7};
 
-    // int & Pointer
+    // create int & Pointer
     int x,*pointer;
 
-    // Address of array to pointer
+    // Assign Address of array to pointer
     pointer = value;
 
     // For loop
     for (x=0; x<7; x++)
     {
-    printf("*pointer %d: %d\n",x ,*pointer);
-    pointer++;
+        printf("*pointer %d: %d\n",x ,*pointer);
+        pointer++;
     }
     
     // Output: line break

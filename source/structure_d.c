@@ -19,7 +19,7 @@ void structure_d(void)
       // Structure Directory (declaration)
     } dh1_apartment_1;
     
-    // assign
+    // Assign
     dh1_apartment_1.value_1 = 2000000000;
     dh1_apartment_1.value_2 = 2000000000;
     

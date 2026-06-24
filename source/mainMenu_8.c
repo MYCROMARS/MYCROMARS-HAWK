@@ -1,7 +1,7 @@
 // if it's not working acivate this:
 // #include <stdio.h>
 
-// STRUKTUR MENU 8
+// Main Menu 8: STRUKTUR 
 
 // Main function
 void mainMenu_8(int *m)
@@ -23,7 +23,7 @@ void mainMenu_8(int *m)
     switch (*m)
     {
         case 0:
-                // assign
+                // Assign
                 *m = 0;
 
                 // Output
@@ -86,7 +86,7 @@ void mainMenu_8(int *m)
                 break;
 
         default:
-                // assign
+                // Assign
                 *m = 0;
 
                 // Output

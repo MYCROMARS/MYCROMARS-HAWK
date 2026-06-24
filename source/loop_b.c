@@ -13,7 +13,7 @@ void loop_b(void)
     // Output
     printf("### Loop B: For loop 1...7 ###\n\n");
 
-    // assign
+    // Assign
     int value_1 = 0;
     const int value_2 = 7;
     int value_3[DEFINE_A] = {10, 20, 30, 40, 50, 60, 70};

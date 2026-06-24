@@ -9,7 +9,7 @@ void loop_d(void){
     // Output
     printf("### Loop D: For loop in a for loop ###\n\n");
 
-    // assign
+    // Assign
     int value_1;
     char letter;
 
@@ -22,7 +22,6 @@ void loop_d(void){
         // Rows
         for(letter='A'; letter<='C'; letter++)
         {
-
             // Output
             printf("%d%c ", value_1, letter);
         }

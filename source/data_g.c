@@ -12,11 +12,11 @@ void data_g(void)
     // Output
     printf("### DATE A: File open for write and reading int arrays. ###\n\n");
     
-    // assign
+    // Assign
     int value_1[] = {100, 700};
     int value_2[] = {1000, 7000};
     
-    // typedef
+    // Typedef
     FILE *save;
     
     // File open
@@ -46,12 +46,12 @@ void data_g(void)
     } 
 
     // Read file
-    // assign
+    // Assign
     int value_3[10];
     int value_4[10];
     int readCount = 0;
     
-    // typedef
+    // Typedef
     FILE *read;
     
     // File open

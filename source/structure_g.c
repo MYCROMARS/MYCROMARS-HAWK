@@ -20,11 +20,11 @@ void structure_g(void)
     // Structure directory (declaration)
     struct house_g1 gh1_apartment_1, *g_pointer_1;
 
-    // assign
+    // Assign
     gh1_apartment_1.value_1 = 1;
     gh1_apartment_1.value_2 = 7;
 
-    // assign pointer
+    // Assign pointer
     g_pointer_1 = &gh1_apartment_1;
 
     // Output

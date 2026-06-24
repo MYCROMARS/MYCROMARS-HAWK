@@ -2,21 +2,22 @@
 // C programming basics
 // ALEXANDER RUDI
 // MYCROMARS 2024 ... 2026
-// Licensed: GNU General Public License v3.0.
+// Licensed: GNU General Public License v3.0
 
 // header file
 #include "header.h"
+
+// useful:
 //#include <windows.h>
 
-// Buffer, assign
+// Assign
 char buffer[50];
 
-// Input string delate buffer
+// Catch invalid input
 void scanString0(void){
-    // input
+    // Input
     scanf("%s", &buffer);
 }
-
 
 // Main function
 int main()
@@ -28,18 +29,17 @@ int main()
     printf("C programming basics\n");
     printf("ALEXANDER RUDI\n");
     printf("MYCROMARS 2024 ... 2026\n");
-    printf("Licensed: GNU General Public License v3.0.\n");
+    printf("Licensed: GNU General Public License v3.0\n");
 
-    // assign
+    // Assign
     int menu = 0;
     int menuB = 0;
 
-    /***MENU***/
-    // Go here <---
+    // MAIN MENU, go here 
     mainMenu:
 
     // Output
-    printf("*** MAIN MENU ***\n");
+    printf("\n*** MAIN MENU ***\n");
     printf("Press (0) EXIT \n");
     printf("Press (1) CALCULATION | (2) DELAY | (3) INPUT | (4) OUTPUT\n");
     printf("Press (5) Pointer | (6) ARRAY | (7) LOOP | (8) STRUCTURE\n");
@@ -47,7 +47,7 @@ int main()
 
     printf("Your input: ");
 
-    // Main Menu
+    // Input
     if (scanf("%d", &menu)) {
 
         // Wrong number (not 1...10)
@@ -55,98 +55,87 @@ int main()
             // Output
             printf("\nInput is not 1...10\n\n");
 
-            // Go here <---
+            // Go here 
             goto mainMenu;
         }
 
         switch (menu)
         {
-        case 0:
-            /* Exit */
-            // Function
-            mainMenu_0(&menuB);
-       
-        case 1:
-            /* Calculation */
-            //  Function
-            mainMenu_1(&menuB);
-            break;
+            case 0:
+                    /* Function: Exit */
+                    mainMenu_0(&menuB);
+        
+            case 1:
+                    /* Function: Calculation */
+                    mainMenu_1(&menuB);
+                    break;
 
-        case 2:
-            /* Delay */
-            // Function
-            mainMenu_2(&menuB);
-            break;
+            case 2:
+                    /* Function: Delay */
+                    mainMenu_2(&menuB);
+                    break;
 
-        case 3:
-            /* Input */
-            // Function
-            mainMenu_3(&menuB);
-            break;
+            case 3:
+                    /* Function: Input */
+                    mainMenu_3(&menuB);
+                    break;
 
-        case 4:
-            /* Output */
-            //  Function
-            mainMenu_4(&menuB);
-            break;
+            case 4:
+                    /* Function: Output */
+                    mainMenu_4(&menuB);
+                    break;
 
-        case 5:
-            /* Pointer */
-            // Function
-            mainMenu_5(&menuB);
-            break;
+            case 5:
+                    /* Function: Pointer */
+                    mainMenu_5(&menuB);
+                    break;
 
-        case 6:
-            /* Array */
-            // Function
-            mainMenu_6(&menuB);
-            break;
+            case 6:
+                    /* Function: Array */
+                    mainMenu_6(&menuB);
+                    break;
 
-        case 7:
-            /* Loop */
-            // Function
-            mainMenu_7(&menuB);
-            break;
+            case 7:
+                    /* Function: Loop */
+                    mainMenu_7(&menuB);
+                    break;
 
-        case 8:
-            /* Structure */
-            // Function
-            mainMenu_8(&menuB);
-            break;
+            case 8:
+                    /* Function: Structure */
+                    mainMenu_8(&menuB);
+                    break;
 
-        case 9: 
-            /* Malloc */
-            // Function
-            mainMenu_9(&menuB);
-            break;
+            case 9: 
+                    /* Function: Malloc */
+                    mainMenu_9(&menuB);
+                    break;
 
-        case 10:
-            /* Malloc */
-            // Function
-            mainMenu_10(&menuB);
-            break;
+            case 10:
+                    /* Function: Malloc */
+                    mainMenu_10(&menuB);
+                    break;
 
-        default:
-            // Output
-            printf("Input is not corect\n\n");
-            break;
+            default:
+                    // Output
+                    printf("Input is not corect\n\n");
+                    break;
         }
     }
     else {
         // Output
         printf("\nInput is not correct\n\n");
 
-        // Funktion: delate/ catch buffer
+        // Funktion: Catch invalid input
         scanString0();
 
-        // Go here <---
+        // Go here 
         goto mainMenu;
     }
 
-    // assign
+    // Assign
     menu = 0;
     menuB = 0;
 
-    // goto start
+    // Go here
     goto mainMenu;
 }

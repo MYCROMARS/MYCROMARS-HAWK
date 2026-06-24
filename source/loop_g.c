@@ -10,7 +10,7 @@ void loop_g(void)
     // Output
     printf("### Loop G: For loop: 9x two int ###\n\n");
 
-    // assign
+    // Assign
     int x, y;
     x = y = 0;
     

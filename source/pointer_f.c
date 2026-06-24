@@ -10,7 +10,7 @@ void pointer_f(int *pointer)
     // Output
     printf("Pointer: %d\n", *pointer);
 
-    // assign
+    // Assign
     *pointer = 0;
     
     // Output

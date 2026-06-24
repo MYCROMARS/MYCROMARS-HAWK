@@ -1,7 +1,7 @@
 // if it's not working acivate this:
 // #include <stdio.h>
 
-// ARRAY MENU 6
+// Main Menu 6: ARRAY 
 
 // Main function
 void mainMenu_6(int *m)
@@ -23,7 +23,7 @@ void mainMenu_6(int *m)
     {
         case 0:
                 // Exit
-                // assign
+                // Assign
                 *m = 0;
                 
                 // Output
@@ -61,8 +61,9 @@ void mainMenu_6(int *m)
                 break;
 
         default:
-                // assign
+                // Assign
                 *m = 0;
+                
                 // Output
                 printf("### END ARRAY ###\n\n");
                 break;

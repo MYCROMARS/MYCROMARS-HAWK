@@ -10,13 +10,13 @@ void pointer_b(void)
     // Output
     printf("### POINTER B: Pointer of array (a) ###\n\n");
 
-    // Array
+    // create Array
     int value[7] = {1, 2, 3, 4, 5, 6, 7};
 
-    // Pointer
+    // create Pointer
     int *pointer;
 
-    // Address of array to pointer
+    // Assign Address of array to pointer
     pointer = value;
 
     // Output

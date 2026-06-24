@@ -1,7 +1,7 @@
-// if it's not working acivate this:
+// If it's not working acivate this:
 // #include <stdlib.h>
 
-// EXIT MENU
+// Main Menu 0: EXIT 
 
 // Main function
 void mainMenu_0(int *m)

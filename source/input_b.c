@@ -4,10 +4,10 @@
 
 // Input A
 
-// Input char for buffer, that is not a number
+// assign
 char value_2[50];
 
-// Input string delate buffer
+// Catch invalid input
 void scanString(void){
     scanf("%s", &value_2[0]);
     //printf("b: %s \n", value_2);
@@ -19,16 +19,16 @@ void input_b(void)
     // Output
     printf("### INPUT B ###\n\n");
 
-    // assign
+    // Assign
     int value_1;
 
-    // Go here <<<---
+    // Go here 
     start:
 
     // Output
     printf("Input a number: ");
 
-    // input
+    // Input
     if (scanf("%d", &value_1)) {
         // Output
         printf("Your input was: %d\n", value_1);
@@ -39,10 +39,10 @@ void input_b(void)
         //printf("\nYour input: %d\n", value_1);
         printf("Input is not a number!\n\n");
 
-        // delate buffer
+        // Catch invalid input
         scanString();
         
-        // Go here <<<---
+        // Go here 
         goto start;
     }
 }

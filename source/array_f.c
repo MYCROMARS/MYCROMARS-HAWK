@@ -7,7 +7,7 @@
 // function
 void arrayPlus(char a)
 {
-    // assign
+    // Assign
     a++;
 
     // Output
@@ -20,7 +20,7 @@ void array_f(void)
     // Output
     printf("### Array F: Char array, go one letter further ###\n\n");
 
-    // assign
+    // Assign
     char charText[] = "Qtch";
     int x;
 

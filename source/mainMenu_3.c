@@ -1,4 +1,4 @@
-// INPUT MENU 3
+// Main Menu 3: INPUT 
 
 // Main function
 void mainMenu_3(int *m)

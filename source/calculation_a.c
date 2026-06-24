@@ -1,8 +1,8 @@
-// if it's not working acivate this:
+// if it's not working activate this:
 // #include <stdio.h>
 // #include "../header/calculation_a.h"
 
-// for later useful:
+// useful:
 // #include <math.h>
 // #include <time.h>
 // #include <synchapi.h>
@@ -15,7 +15,7 @@ void calculation_a(void)
     // Output
     printf("\n### CALCULATION A: a+b = c ###\n");
 
-    // assign
+    // Assign
     int value_1 = 0;
     int value_2 = 0;
     int sum = 0;

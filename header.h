@@ -1,7 +1,7 @@
 #ifndef HEADER
 #define HEADER
 
-    // **** Include Library files
+    // ********** Include Library files
     #include <stdio.h>
     #include <stdlib.h>
     #include <string.h>
@@ -9,16 +9,15 @@
     #include <math.h>
     #include <time.h>
 
-    // Windows
+    // WindowsOS
     //#include <dir.h>
     //#include <unistd.h>
     //#include <synchapi.h>
 
-    // on macOS:
+    // macOS:
     //#include <dient.h>
 
-
-    // **** Include header files
+    // ********** Include header files
     #include "header/mainMenu.h"
 
     #include "header/calculation_a.h"
@@ -75,8 +74,7 @@
     #include "header/data_f.h"
     #include "header/data_g.h"
 
-
-    // **** Include Main Menu source files
+    // ********** Include Main Menu source files
     #include "source/mainMenu_0.c"
     #include "source/mainMenu_1.c"
     #include "source/mainMenu_2.c"
@@ -89,8 +87,7 @@
     #include "source/mainMenu_9.c"
     #include "source/mainMenu_10.c"
 
-
-    // **** Include source files
+    // ********** Include source files
     #include "source/calculation_a.c"
 
     #include "source/delay_a.c"
@@ -146,4 +143,3 @@
     #include "source/data_g.c"
 
 #endif
-

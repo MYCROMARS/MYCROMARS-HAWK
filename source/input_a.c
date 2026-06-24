@@ -2,9 +2,6 @@
 // #include <stdio.h>
 // #include "../header/input_a.h"
 
-// on Windows activate:
-#include <stdio.h>
-
 // Input A
 // Main function
 void input_a(void)
@@ -12,7 +9,7 @@ void input_a(void)
     // Output
     printf("### INPUT A ###\n\n");
 
-    // assign
+    // Assign
     char charInput_a, charInput_b;
     int intInput;
     char u;
@@ -28,8 +25,8 @@ void input_a(void)
 
     // Output
     printf("Your Input was: %c\n\n", intInput);
-    // ----------------------------------------
 
+    // ----------------------------------------
     // Output
     printf("INPUT char with getchar().\n");
     printf("Input a character, only one sign: ");
@@ -40,8 +37,8 @@ void input_a(void)
 
     // Output
     printf("Your Input was: %c\n\n", charInput_a);
+    
     // ------------------------------------------
-
     // Output
     printf("INPUT with scanf().\n");
     printf("Continue with y: ");
