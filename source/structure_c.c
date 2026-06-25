@@ -16,7 +16,8 @@ void structure_c(void){
         char toy_1[15];
         char toy_2[15];
         char toy_3[15];
-        // Structure Directory
+
+      // Structure Directory
     } ch1_apartment_1;
    
     // Assign
@@ -39,7 +40,8 @@ void structure_c(void){
         // Structure 3
         struct house_c3 {
             char toy_1[10];
-            // Structure Directory (declaration)
+
+          // Structure Directory (declaration)
         } ch3_apartment_1;
 
       // Structure directory (declaration)

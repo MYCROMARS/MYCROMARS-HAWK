@@ -32,6 +32,7 @@ void structure_b(void){
     hb2_apartment_1.x = 'B';
     hb2_apartment_1.y[0] = 'B';
     hb2_apartment_1.y[1] = 'C';
+    
     strcpy(hb2_apartment_1.text_1,"Berlin City");
     
     // Output

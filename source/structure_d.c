@@ -16,6 +16,7 @@ void structure_d(void)
         long int value_1;
         float value_2;
         double value_3;
+        
       // Structure Directory (declaration)
     } dh1_apartment_1;
     

@@ -20,8 +20,7 @@ void structure_a(void)
     struct house_a1 ha1_apartment_1;
     struct house_a1 ha1_apartment_2;
 
-    // or
-    // other spelling:
+    // or other spelling:
     // struct house1 h1_apartment_1, h1_apartment_2;
     
     // Assign
@@ -39,6 +38,7 @@ void structure_a(void)
     struct house_a2 {
         int window;
         int door;
+        
         // Structure Directory (declaration)
     } ha2_apartment_1, ha2_apartment_2;
 
