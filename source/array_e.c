@@ -1,4 +1,4 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include "../header/array_e.h"
 
@@ -10,8 +10,10 @@ void array_e(void)
     // Output
     printf("### Array E: Duplicate value 1...7 ###\n\n");
 
-    // Assign
+    // create & Assign
     int value[7] = {1, 2, 3, 4, 5, 6, 7};
+
+    // create
     int duplicate[7];
     int x;
 

@@ -1,4 +1,4 @@
-// if it's not working acivate this:
+// If it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include "../header/pointer_e.h"
 
@@ -14,6 +14,6 @@ void pointer_e(int *pointer){
     // Assign
     *pointer = 0;
 
-    // Outputs
+    // Output
     printf("Pointer reset: %d\n", *pointer);
 } 

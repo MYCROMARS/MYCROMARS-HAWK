@@ -1,4 +1,4 @@
-// if it's not working activate this:
+// if it's not working activate this (on macOS):
 // #include <stdio.h>
 // #include "../header/calculation_a.h"
 

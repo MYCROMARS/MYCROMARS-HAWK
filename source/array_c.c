@@ -1,4 +1,4 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include "../header/array_c.h"
 
@@ -11,7 +11,7 @@ void array_c(void)
     printf("### Array C: Input value's 1...7 ###\n\n");
     printf("Value input 1...7:\n");
 
-    // Assign
+    // create
     float value[7];
     int x;
 

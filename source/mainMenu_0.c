@@ -1,4 +1,4 @@
-// If it's not working acivate this:
+// If it's not working acivate this (on macOS):
 // #include <stdlib.h>
 
 // Main Menu 0: EXIT 

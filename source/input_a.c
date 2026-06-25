@@ -1,8 +1,9 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include "../header/input_a.h"
 
 // Input A
+
 // Main function
 void input_a(void)
 {

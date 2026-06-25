@@ -1,9 +1,6 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include "../header/loop_b.h"
-
-// on Windows activate:
-#include "../header/loop_b.h"
 
 // LOOP B
 
@@ -13,7 +10,7 @@ void loop_b(void)
     // Output
     printf("### Loop B: For loop 1...7 ###\n\n");
 
-    // Assign
+    // Create & assign
     int value_1 = 0;
     const int value_2 = 7;
     int value_3[DEFINE_A] = {10, 20, 30, 40, 50, 60, 70};
@@ -27,6 +24,7 @@ void loop_b(void)
     // other spelling
     /*
     int value_4 = 0;
+
     for( ; value_4<value_2; ){
         printf("value 3: %d\n", value_3[value_4]);
         value_4++;

@@ -1,8 +1,9 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include "../header/array_b.h"
 
 // ARRAY B
+
 // Main function
 void array_b(void)
 {

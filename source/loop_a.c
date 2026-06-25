@@ -1,11 +1,9 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include "../header/loop_a.h"
 
-// on Windows activate:
-#include "../header/loop_a.h"
-
 // LOOP A
+
 // Main function
 void loop_a(void)
 {

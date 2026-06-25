@@ -1,4 +1,4 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 
 // Main Menu 7: LOOP 
@@ -73,6 +73,4 @@ void mainMenu_7(int *m)
                 printf("### END LOOP ###\n\n");
                 break;
     }
-
-
 }

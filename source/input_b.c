@@ -1,4 +1,4 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include "../header/input_b.h"
 
@@ -10,6 +10,8 @@ char value_2[50];
 // Catch invalid input
 void scanString(void){
     scanf("%s", &value_2[0]);
+
+    // Test
     //printf("b: %s \n", value_2);
 }
 
@@ -36,10 +38,12 @@ void input_b(void)
     }
     else{
         // Output
-        //printf("\nYour input: %d\n", value_1);
         printf("Input is not a number!\n\n");
 
-        // Catch invalid input
+        // Test
+        //printf("\nYour input: %d\n", value_1);
+
+        // Function: Catch invalid input
         scanString();
         
         // Go here 

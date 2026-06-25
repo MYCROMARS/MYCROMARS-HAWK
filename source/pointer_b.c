@@ -1,4 +1,4 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include "../header/pointer_b.h"
 
@@ -10,13 +10,13 @@ void pointer_b(void)
     // Output
     printf("### POINTER B: Pointer of array (a) ###\n\n");
 
-    // create Array
+    // create and Assign: Array 
     int value[7] = {1, 2, 3, 4, 5, 6, 7};
 
-    // create Pointer
+    // create: Pointer
     int *pointer;
 
-    // Assign Address of array to pointer
+    // Assign: Address of array to pointer
     pointer = value;
 
     // Output

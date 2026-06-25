@@ -1,10 +1,11 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include <string.h>
 // #include <stdlib.h>
 // #include "../header/structure_k.h"
 
-// activate in function start() system("clear")
+// On macOS activate in function start():       system("clear")
+// On WindowsOS activate in function start():   system("cls")
 
 // Structure K
 

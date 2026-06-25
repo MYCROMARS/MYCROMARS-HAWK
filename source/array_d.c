@@ -1,4 +1,4 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include "../header/array_d.h"
 
@@ -10,8 +10,10 @@ void array_d(void)
     // Output
     printf("### Array D: Switch value 1 & 7 ###\n\n");
 
-    // Assign
+    // create & Assign
     int value[] = {1, 2, 3, 4, 5, 6, 7};
+
+    // create
     int storage;
     int x;
 

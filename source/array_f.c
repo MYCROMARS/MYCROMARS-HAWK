@@ -1,4 +1,4 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include "../header/array_f.h"
 
@@ -20,8 +20,10 @@ void array_f(void)
     // Output
     printf("### Array F: Char array, go one letter further ###\n\n");
 
-    // Assign
+    // create & Assign
     char charText[] = "Qtch";
+   
+    // create
     int x;
 
     // Output

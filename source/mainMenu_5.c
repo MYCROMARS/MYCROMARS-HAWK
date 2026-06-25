@@ -1,4 +1,4 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 
 // Main Menu 5: OUTPUT 
@@ -79,14 +79,15 @@ void mainMenu_5(int *m)
 
         case 6:
                 // Output
-                printf("## POINTER F: Address of pointer to function (b) ###\n\n");
+                printf("## POINTER F: Address of pointer to function ###\n\n");
 
                 // Assign
                 value_3 = 100;
-                value_4 = 700;
+
+                // create
                 int *pointer_2;
 
-                // Address 1 of int to pointer --------------------- 1
+                // Asssign: Address of int to pointer 
                 pointer_2 = &value_3;
 
                 // Output
@@ -97,19 +98,6 @@ void mainMenu_5(int *m)
 
                 // Output
                 printf("Int value 3: %d\n\n", value_3);
-
-                // Address 2 of int to pointer --------------------- 2
-                pointer_2 = &value_4;
-
-                // Output
-                printf("Int value 4: %d\n\n", value_4);
-
-                // Function: Pointer F, address of pointer to function
-                pointer_f(pointer_2);
-
-                // Output
-                printf("Int value 4: %d\n\n", value_4);
-                break;
                 
         default:
                 // Assign
@@ -119,4 +107,4 @@ void mainMenu_5(int *m)
                 printf("### END Pointer ###\n\n");
                 break;
     }
-}   
+}  

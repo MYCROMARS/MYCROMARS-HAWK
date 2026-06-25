@@ -1,4 +1,4 @@
-// if it's not working acivate this:
+// if it's not working acivate this (on macOS):
 // #include <stdio.h>
 // #include "../header/loop_e.h"
 
@@ -11,21 +11,25 @@ void loop_e(void){
     // Assign
     const int value_1 = 7;
     int value_2[7] = {7, 6, 5, 4, 3, 2, 1};
+
+    // Create
     int x, y, storeage;
 
     // Output
     printf("original:\n");
 
+    // For loop
     for(x=0; x<value_1; x++){
         printf("%d ", value_2[x]);
     }
 
+    // Output
     printf("\n\n");
 
-    // Loop 7 times
+    // For loop: 7 times
     for(x=0; x<value_1; x++){
 
-        // Loop 6 times
+        // For loop: 6 times
         for(y=x+1; y<value_1; y++){
 
             // Compare and sort
@@ -40,9 +44,11 @@ void loop_e(void){
     // Output
     printf("sorted:\n");
     
+    // For loop
     for(x=0; x<value_1; x++){
         printf("%d ", value_2[x]);
     }
 
+    // Output
     printf("\n\n");
 }
