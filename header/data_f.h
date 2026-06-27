@@ -1,7 +1,6 @@
 #ifndef DATA_F
     #define DATA_F
 
-    // DATA F
+    // Function
     void data_f();
-    
 #endif

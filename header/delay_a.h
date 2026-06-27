@@ -1,6 +1,6 @@
 #ifndef DELAY_A
     #define DELAY_A
 
-    // DELAY A
+    // Function: With transfer possibility: double
     void delay_a(double value);
 #endif

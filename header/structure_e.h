@@ -1,7 +1,6 @@
 #ifndef STRUCTURE_E
     #define STRUCTURE_E
 
-    // STRUCTURE_E
+    // Function
     void structure_e();
-    
 #endif

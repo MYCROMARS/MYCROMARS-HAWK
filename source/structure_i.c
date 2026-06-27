@@ -8,6 +8,7 @@
 typedef struct house_i2 {
     int xx;
     int yy;
+    
     // Structure Datatype
 } ih2_datatype;
 
@@ -34,6 +35,7 @@ void structure_i(void)
     typedef struct house_ih1 {
         int x;
         int y;
+
         // Structure Datatype
     } ih1_datatype;
 
@@ -61,7 +63,7 @@ void structure_i(void)
 
     printf("Structure 2\n");
 
-    // 2.Structur, directory (declaration), assign
+    // 2. Structur, directory (declaration), assign
     ih2_datatype ih2_apartment_1 = {1, 0};
 
     // Function

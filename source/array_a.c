@@ -11,10 +11,10 @@ void array_a(void)
     printf("### Array A: Multiply Value's 1...7 ###\n\n");
     printf("Value [7]: 1, 2, 3, 4, 5, 6, 7\n\n");
 
-    // Assign
+    // Create & assign: Array
     int value[ArraySize_a] = {1, 2, 3, 4, 5, 6, 7};
 
-    // Multiplication
+    // Assign: Multiplication
     value[0] *= 2;
     value[1] *= 2;
     value[2] *= 2;

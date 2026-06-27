@@ -1,6 +1,6 @@
 #ifndef INPUT_A
     #define INPUT_A
 
-    // INPUT A
+    // Function
     void input_a();
 #endif

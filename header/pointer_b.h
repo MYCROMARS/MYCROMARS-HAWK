@@ -1,6 +1,6 @@
 #ifndef POINTER_B
     #define POINTER_B
 
-    // POINTER B
+    // Function
     void pointer_b();
 #endif

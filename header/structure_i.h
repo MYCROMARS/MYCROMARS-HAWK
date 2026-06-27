@@ -1,7 +1,6 @@
 #ifndef STRUCTURE_I
     #define STRUCTURE_I
 
-    // STRUCTURE_I
+    // Function
     void structure_i();
-    
 #endif

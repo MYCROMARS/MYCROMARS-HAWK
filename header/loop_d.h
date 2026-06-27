@@ -1,7 +1,6 @@
 #ifndef LOOP_D
     #define LOOP_D
 
-    // LOOP D
+    // Function
     void loop_d();
-    
 #endif

@@ -55,7 +55,7 @@ void malloc_b(void)
         exit(EXIT_SUCCESS);
     }
     
-    // Assign Pointer: function
+    // Assign Pointer: Function: With transfer
     int *store = startMalloc(value_1);
 
     if (store == NULL){
@@ -66,6 +66,7 @@ void malloc_b(void)
     // Output
     printf("Output:\n");
 
+    // For loop
     for (unsigned i=0; i<value_1; i++) {
     
         // Output

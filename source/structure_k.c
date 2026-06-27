@@ -15,6 +15,8 @@ typedef struct house_1
     int value_1;
     char text_1[255];
     char text_2[255];
+
+  // Structure Datatype
 } kh1_datatype;
 
 // Function
@@ -34,6 +36,7 @@ void start()
 // Function
 void input(kh1_datatype kh1_apartment_1b)
 {
+    // Create
     char text_3[20];
 
     // Output
@@ -46,10 +49,12 @@ void input(kh1_datatype kh1_apartment_1b)
     // Compare, at 0 they are equal
     if(strcmp(kh1_apartment_1b.text_2, text_3) == 0)
     {
+        // Output
         printf("!! right !!\n\n");
     }
     else
     {
+        // Output
         printf("! wrong !\n\n");
     }
 }

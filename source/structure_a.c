@@ -20,7 +20,7 @@ void structure_a(void)
     struct house_a1 ha1_apartment_1;
     struct house_a1 ha1_apartment_2;
 
-    // or other spelling:
+    // other spelling:
     // struct house1 h1_apartment_1, h1_apartment_2;
     
     // Assign

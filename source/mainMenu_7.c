@@ -31,7 +31,7 @@ void mainMenu_7(int *m)
                 break;
 
         case 1:
-                // Function: Loop A, wgile loop
+                // Function: Loop A, while loop
                 loop_a();
                 break;
 

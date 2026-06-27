@@ -1,6 +1,6 @@
 #ifndef CALCULATION_A
     #define CALCULATION_A
 
-    // Calculation A
+    // Function
     void calculation_a();
 #endif

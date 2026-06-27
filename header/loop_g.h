@@ -1,7 +1,6 @@
 #ifndef LOOP_G
     #define LOOP_G
 
-    // LOOP G
+    // Function
     void loop_g();
-    
 #endif

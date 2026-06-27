@@ -1,8 +1,9 @@
 #ifndef LOOP_B
     #define LOOP_B
 
-    // LOOP B
+    // define: constant
     #define DEFINE_A 7
+
+    // Function
     void loop_b();
-    
 #endif

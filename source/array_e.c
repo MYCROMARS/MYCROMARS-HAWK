@@ -17,7 +17,7 @@ void array_e(void)
     int duplicate[7];
     int x;
 
-    // Duplicate
+    // For loop
     for(x=0; x<7; x++)
     duplicate[x] = value[x];
 

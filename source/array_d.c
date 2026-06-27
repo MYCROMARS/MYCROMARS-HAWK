@@ -27,7 +27,7 @@ void array_d(void)
     // Output
     printf("\n");
     
-    // switch 1 & 7, array[0] = 1
+    // switch: 1 & 7, array[0] = 1
     storage = value[6];
     value[6] = value[0];
     value[0] = storage;

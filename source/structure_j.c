@@ -9,6 +9,7 @@ typedef struct house_j1{
     int value_1;
     int value_2;
     char text_1[14];
+
     // Structure Datatype
 } jh1_datatype;
 
@@ -34,7 +35,7 @@ void multiply_1(jh1_datatype **pointer_2)
     (*pointer_2)->value_1 *= 10;
     (*pointer_2)->value_2 *= 10;
     
-    // Function: Address to pointer
+    // Function: With transfer: Pointer 
     multiply_2(&pointer_2);
 }
 
@@ -48,7 +49,7 @@ void startFunction(jh1_datatype *pointer_1)
     // Assign
     strcpy(pointer_1->text_1, "Doll");
 
-    // Function: Address to pointer
+    // Function: With transfer: Pointer 
     multiply_1(&pointer_1);
 }
 
@@ -64,16 +65,16 @@ void structure_j(void)
     // Output:
     printf("Apartment 1:\n");
 
-    // Function
+    // Function: With transfer: Structure
     print_j1(jh1_apartment_1);
 
-    // Function: Multiply
+    // Function: With transfer: Structure Address
     startFunction(&jh1_apartment_1);
 
     // Output:
     printf("Apartment 1: with function multiply\n");
 
-    // Function
+    // Function: With transfer: Structure
     print_j1(jh1_apartment_1);
 
     // Structure 2: Directory (declaration)
@@ -89,6 +90,6 @@ void structure_j(void)
     // Output:
     printf("Apartment 2:\n");
 
-    // Function
+    // Function: With transfer: Structure
     print_j1(jh1_apartment_2);
 } 

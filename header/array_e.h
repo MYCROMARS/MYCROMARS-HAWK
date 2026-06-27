@@ -1,6 +1,6 @@
 #ifndef ARRAY_E
     #define ARRAY_E
 
-    // Array E
+    // Function
     void array_e();
 #endif
