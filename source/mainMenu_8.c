@@ -41,7 +41,7 @@ void mainMenu_8(int *m)
                 break;
 
         case 3:
-                // Function: Structure C, structure in structure and char string.
+                // Function: Structure C, structure in structure and char string
                 structure_c();
                 break;
 
@@ -66,7 +66,7 @@ void mainMenu_8(int *m)
                 break;
 
         case 8:
-                // Function: Structure H, with 0 initialize
+                // Function: Structure H, initialize with 0 
                 structure_h();
                 break;
 

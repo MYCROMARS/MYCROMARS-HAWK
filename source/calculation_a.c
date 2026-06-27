@@ -15,7 +15,7 @@ void calculation_a(void)
     // Output
     printf("\n### CALCULATION A: a+b = c ###\n");
 
-    // Assign
+    // Create & assign (initialize)
     int value_1 = 0;
     int value_2 = 0;
     int sum = 0;

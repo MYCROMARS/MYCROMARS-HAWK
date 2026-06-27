@@ -10,7 +10,7 @@
 // useful:
 //#include <windows.h>
 
-// Assign
+// Create & assign (initialize)
 char buffer[50];
 
 // Catch invalid input
@@ -31,7 +31,7 @@ int main()
     printf("MYCROMARS 2024 ... 2026\n");
     printf("Licensed: GNU General Public License v3.0\n");
 
-    // Assign
+    // Create & assign (initialize)
     int menu = 0;
     int menuB = 0;
 
@@ -50,7 +50,7 @@ int main()
     // Input
     if (scanf("%d", &menu)) {
 
-        // Wrong number (not 1...10)
+        // Wrong number not 1...10
         if (menu < 0 || menu > 10){
             // Output
             printf("\nInput is not 1...10\n\n");
@@ -117,13 +117,13 @@ int main()
 
             default:
                     // Output
-                    printf("Input is not corect\n\n");
+                    printf("Input is not a number 1...10\n\n");
                     break;
         }
     }
     else {
         // Output
-        printf("\nInput is not correct\n\n");
+        printf("\nInput is not a number\n\n");
 
         // Funktion: Catch invalid input
         scanString0();
@@ -132,7 +132,7 @@ int main()
         goto mainMenu;
     }
 
-    // Assign
+    // Assign (initialize)
     menu = 0;
     menuB = 0;
 

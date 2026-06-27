@@ -8,7 +8,7 @@
 void pointer_c(void)
 {
     // Output
-    printf("### POINTER C: Pointer of array (b) ###\n\n");
+    printf("### POINTER C: Pointer of array, for loop ###\n\n");
 
     printf("value[7]: 1, 2, 3, 4, 5, 6, 7\n");
     printf("Pointer = value\n");

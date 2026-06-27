@@ -3,7 +3,7 @@
 // Main function
 void mainMenu_2(int *m)
 {
-    // Assign
+    // Create & assign
     int value = 0;
 
     // Output

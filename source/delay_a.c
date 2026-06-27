@@ -6,17 +6,17 @@
 // Main function 
 void delay_a(double value_1)
 {
-    // Assign
+    // Create & assign
     int menu = 0;
     double value_2 = 1;
     double step = 100;
     int counter = 1;
     int multiplier = 10000;
 
-    // Output: Print Timer size
+    // Output
     printf("Multiplier: %.d\n", multiplier);
 
-    // Timer ^UP
+    // Assigne
     value_1 *= multiplier;
 
     // Output
@@ -37,7 +37,7 @@ void delay_a(double value_1)
         // Output
         printf("*** DELAY START ***\n");
 
-        // Timer
+        // While loop: Timer
         while (value_2 < value_1){
             value_2++;
 

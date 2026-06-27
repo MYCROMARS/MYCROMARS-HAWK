@@ -18,7 +18,10 @@ void mainMenu_3(int *m)
     {
         case 0:
                 // Exit
+                // Assign
                 *m = 0;
+
+                // Output
                 printf("### EXIT Input ###\n\n");
                 break;
 
@@ -28,12 +31,15 @@ void mainMenu_3(int *m)
                 break;
 
         case 2:
-                // Function: Input B, some numbers, check if it is correct
+                // Function: Input B, some numbers, Catch invalid input 
                 input_b();
                 break;
 
         default:
+                // Assign
                 *m = 0;
+
+                // Output
                 printf("### END Input ###\n\n");
                 break;
     }

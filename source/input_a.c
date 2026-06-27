@@ -10,10 +10,12 @@ void input_a(void)
     // Output
     printf("### INPUT A ###\n\n");
 
-    // Assign
+    // Create
     char charInput_a, charInput_b;
     int intInput;
     char u;
+
+    // Create & assign
     int x = 0;
 
     // Output

@@ -9,7 +9,7 @@ void output_a(void) {
     printf("\n### OUTPUT A ###\n\n");
     printf("With printf(): Hello World\n");
     
-    // Output: putc
+    // Output: with putc
     printf("With putc(): ");
     putc('H', stdout);
     putc('e', stdout);

@@ -8,7 +8,7 @@
 void pointer_b(void)
 {
     // Output
-    printf("### POINTER B: Pointer of array (a) ###\n\n");
+    printf("### POINTER B: Pointer of array ###\n\n");
 
     // create and Assign: Array 
     int value[7] = {1, 2, 3, 4, 5, 6, 7};

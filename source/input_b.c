@@ -4,7 +4,7 @@
 
 // Input A
 
-// assign
+// Create & assign
 char value_2[50];
 
 // Catch invalid input
@@ -21,7 +21,7 @@ void input_b(void)
     // Output
     printf("### INPUT B ###\n\n");
 
-    // Assign
+    // Create
     int value_1;
 
     // Go here 
