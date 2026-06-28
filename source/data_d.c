@@ -1,6 +1,6 @@
 // if it's not working acivate this (on macOS):
-// #include <stdio.h>
-// #include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 // #include <string.h>
 // #include "../header/data_d.h"
 
@@ -12,10 +12,11 @@ void data_d(void)
     // Output
     printf("### DATE D: File open for write, reading. ###\n\n");
     
-    // Assign
+    // Create & assign
     char text_1[] = "Hello";
     
     // Typedef
+    // need <stdio.h> 
     FILE *save;
     
     // File open
@@ -27,6 +28,7 @@ void data_d(void)
         puts("! error !");
         
         // Exit
+        // need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else{
@@ -51,13 +53,14 @@ void data_d(void)
     // Define
     char text_2[20];
     
-    // Assign
+    // Create & assign
     int readCount = 0;
     
     // for testing, assign
     // strcpy(text_2,"Hello");
     
     // Typedef
+    // need <stdio.h> 
     FILE *read;
     
     // open
@@ -69,6 +72,7 @@ void data_d(void)
         puts("! error !");
         
         // Exit
+        // need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else

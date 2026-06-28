@@ -1,6 +1,6 @@
 // if it's not working acivate this (on macOS):
-// #include <stdio.h>
-// #include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 // #include <string.h>
 // #include "../header/data_c.h"
 
@@ -12,12 +12,15 @@ void data_c(void)
     // Output
     printf("### DATE C: File open for reading integer. ###\n\n");
     
-    // Assign
+    // Create & assign
     int value_1 = 0;
     int readCount = 0;
+
+    // Create
     char text[100];
     
     // Typedef
+    // need <stdio.h> 
     FILE *read;
     
     // Open file
@@ -29,6 +32,8 @@ void data_c(void)
     if(read == NULL)
     {
         puts("! error !");
+        
+        // need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else

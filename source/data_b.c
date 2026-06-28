@@ -1,7 +1,7 @@
 // if it's not working acivate this (on macOS):
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+//#include <string.h>
 // #include "../header/data_b.h"
 
 // Data B
@@ -12,10 +12,11 @@ void data_b(void)
     // Output
     printf("### DATE B: File open/create for writing/overwriting. ###\n\n");
     
-    // Assign
+    // Create & assign
     int value_1 = 100;
     
     // Typedef, create a pointer
+    // need <stdio.h> 
     FILE *save;
     
     // Open file
@@ -27,6 +28,7 @@ void data_b(void)
         puts("! error !");
         
         // Exit
+        // need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else{

@@ -1,6 +1,6 @@
 // if it's not working acivate this (on macOS): 
-// #include <stdio.h>
-// #include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 // #include <string.h>
 // #include "../header/data_g.h"
 
@@ -12,11 +12,12 @@ void data_g(void)
     // Output
     printf("### DATE A: File open for write and reading int arrays. ###\n\n");
     
-    // Assign
+    // Create & assign
     int value_1[] = {100, 700};
     int value_2[] = {1000, 7000};
     
     // Typedef
+    // need <stdio.h> 
     FILE *save;
     
     // File open
@@ -28,6 +29,7 @@ void data_g(void)
         puts("! error !");
         
         // Exit
+        // need <stdlib.h> on macOS
         exit (EXIT_FAILURE);
     }
     else
@@ -45,13 +47,17 @@ void data_g(void)
         puts("File closed.\n");
     } 
 
-    // Read file
-    // Assign
+    // ### Read file
+
+    // Create
     int value_3[10];
     int value_4[10];
+
+    // Create & assign
     int readCount = 0;
     
     // Typedef
+    // need <stdio.h> 
     FILE *read;
     
     // File open
@@ -63,6 +69,7 @@ void data_g(void)
         puts("! error !");
         
         // Exit
+        // need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else

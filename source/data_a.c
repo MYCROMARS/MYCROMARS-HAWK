@@ -1,7 +1,7 @@
 // if it's not working acivate this (on macOS):
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+//#include <string.h>
 // #include "../header/data_a.h"
 
 // Data A
@@ -12,13 +12,14 @@ void data_a(void)
     // Output
     printf("### DATE A: File open/create for writing to end of file. ###\n\n");
     
-    // Assign
+    // Create & assign
     int value_1 = 700;
     
     // typedef, create a pointer
+    // need <stdio.h> 
     FILE *save;
     
-    // file open, the file will be created even if it doesn’t exist.
+    // file open: The file will be created even if it doesn’t exist.
     save = fopen("save.dat", "a");
 
     if(save == NULL)
@@ -27,6 +28,7 @@ void data_a(void)
         puts("! error !");
         
         // Exit
+        // need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else

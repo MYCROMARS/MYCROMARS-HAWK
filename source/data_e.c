@@ -1,6 +1,6 @@
 // if it's not working acivate this (on macOS):
-// #include <stdio.h>
-// #include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 // #include <string.h>
 // #include "../header/data_e.h"
 
@@ -12,11 +12,12 @@ void data_e(void)
     // Output
     printf("### DATE E: File open for reading 2 strings. ###\n\n");
     
-    // Assign
+    // Create & assign
     char text_1[] = "Hello";
     char text_2[] = "World";
     
     // Typedef
+    // need <stdio.h> 
     FILE *save;
     
     // File open
@@ -28,6 +29,7 @@ void data_e(void)
         puts("! error !");
         
         // Exit
+        // need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else
@@ -46,9 +48,12 @@ void data_e(void)
     } 
 
     // ### Read file
-    // Assign
+
+    // Create
     char text_3[20];
     char text_4[20];
+
+    // Create & assign
     int readCount = 0;
     
     // Typedef
@@ -63,6 +68,7 @@ void data_e(void)
         puts("! error !");
         
         // Exit
+        // need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else

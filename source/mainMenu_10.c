@@ -29,28 +29,34 @@ void mainMenu_10(int *m)
                 // Output
                 printf("### EXIT DATA ###\n\n");
                 break;
+                
         case 1:
-                // Function: Data A, file successfully opened/created for writing to end of file.
+                // Function: Data A
+                // File successfully opened/created for writing to end of file.
                 data_a();
                 break;
 
         case 2:
-                // Function: Data B, file successfully opened/created for writing/overwriting.
+                // Function: Data B
+                // File successfully opened/created for writing/overwriting.
                 data_b();
                 break;
 
         case 3:
-                // Function: Data C, file successfully opened for reading integer.
+                // Function: Data C
+                // File successfully opened for reading integer.
                 data_c();
                 break;
 
         case 4:
-                // Function: Data D, file successfully opened for reading string.
+                // Function: Data D 
+                // File successfully opened for reading string.
                 data_d();
                 break;
 
         case 5:
-                // Function: Data E, file successfully opened for reading 2 strings.
+                // Function: Data E
+                // File successfully opened for reading 2 strings.
                 data_e();
                 break;
 
