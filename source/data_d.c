@@ -15,7 +15,7 @@ void data_d(void)
     // Create & assign
     char text_1[] = "Hello";
     
-    // Typedef
+    // Create a pointer
     // need <stdio.h> 
     FILE *save;
     
@@ -59,7 +59,7 @@ void data_d(void)
     // for testing, assign
     // strcpy(text_2,"Hello");
     
-    // Typedef
+    // Create a pointer
     // need <stdio.h> 
     FILE *read;
     

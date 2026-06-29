@@ -16,7 +16,7 @@ void data_f(void)
     int value_1[] = {10, 70};
     int value_2[] = {100, 700};
     
-    // Typedef
+    // Create a pointer
     // need <stdio.h> 
     FILE *save;
     
@@ -56,7 +56,7 @@ void data_f(void)
     // Create & assign
     int readCount = 0;
     
-    // Typedef
+    // Create a pointer
     // need <stdio.h>
     FILE *read;
     

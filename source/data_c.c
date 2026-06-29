@@ -19,7 +19,7 @@ void data_c(void)
     // Create
     char text[100];
     
-    // Typedef
+    // Create a pointer
     // need <stdio.h> 
     FILE *read;
     
@@ -74,7 +74,6 @@ void data_c(void)
     */
 
 
-    
     // Read string with: fscanf() ---------------------------------------------
     /*
     if(read == NULL)

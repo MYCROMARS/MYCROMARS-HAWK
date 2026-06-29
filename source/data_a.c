@@ -15,7 +15,7 @@ void data_a(void)
     // Create & assign
     int value_1 = 700;
     
-    // typedef, create a pointer
+    // Create a pointer
     // need <stdio.h> 
     FILE *save;
     

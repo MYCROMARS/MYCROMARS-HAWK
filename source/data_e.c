@@ -16,7 +16,7 @@ void data_e(void)
     char text_1[] = "Hello";
     char text_2[] = "World";
     
-    // Typedef
+    // Create a pointer
     // need <stdio.h> 
     FILE *save;
     
@@ -56,7 +56,8 @@ void data_e(void)
     // Create & assign
     int readCount = 0;
     
-    // Typedef
+    // Create a pointer
+    // need <stdio.h>
     FILE *read;
     
     // File open
