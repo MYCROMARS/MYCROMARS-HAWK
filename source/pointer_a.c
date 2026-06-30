@@ -5,7 +5,7 @@
 // POINTER A
 
 // Main function
-void pointer_a() {
+void pointer_a(void) {
     printf("### POINTER A: Pointer of int ###\n\n");
 
     // create

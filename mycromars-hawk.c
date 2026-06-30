@@ -20,7 +20,7 @@ void scanString0(void){
 }
 
 // Main function
-int main()
+int main(void)
 {
     // Output
     printf("\n");

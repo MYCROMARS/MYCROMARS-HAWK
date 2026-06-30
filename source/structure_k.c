@@ -20,7 +20,7 @@ typedef struct house_1
 } kh1_datatype;
 
 // Function
-void start()
+void start(void)
 {
     // on Windows: Clear screen
     system("cls");
