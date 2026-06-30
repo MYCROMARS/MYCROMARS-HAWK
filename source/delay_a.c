@@ -1,4 +1,5 @@
 // if it's not working acivate this (on macOS):
+// #include <stdio.h>
 // #include "../header/delay_a.h"
 
 // Delay A
