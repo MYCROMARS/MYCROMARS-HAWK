@@ -1,7 +1,7 @@
 #ifndef MAIN_MENU
     #define MAIN_MENU
 
-    // Function: With transfer possibility: pointer
+    // Function: With transfer possibility: int pointer
     void mainMenu_0(int *m);
     void mainMenu_1(int *m);
     void mainMenu_2(int *m);

@@ -23,7 +23,7 @@ void delay_a(double value_1)
     // Output
     printf("Delay size: %.0f\n\n", value_1);
 
-    // *--- Menu B ---*
+    // *--- MENU ---*
     // Output
     printf("Press: (0) EXIT | (1) START\n");
     printf("Your Input: ");

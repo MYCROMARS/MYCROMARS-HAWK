@@ -5,6 +5,8 @@
 // useful:
 // #include <math.h>
 // #include <time.h>
+
+// WindowsOS:
 // #include <synchapi.h>
 
 // Calculation A

@@ -50,10 +50,10 @@ int main(void)
     // Input
     if (scanf("%d", &menu)) {
 
-        // Wrong number not 1...10
+        // Wrong number, not 1...10
         if (menu < 0 || menu > 10){
             // Output
-            printf("\nInput is not 1...10\n\n");
+            printf("\nInput is wrong, not 1...10\n\n");
 
             // Go here 
             goto mainMenu;
@@ -128,7 +128,7 @@ int main(void)
         // Funktion: Catch invalid input
         scanString0();
 
-        // Go here 
+        // Jump to start
         goto mainMenu;
     }
 
@@ -136,6 +136,6 @@ int main(void)
     menu = 0;
     menuB = 0;
 
-    // Go here
+    // Jump to start
     goto mainMenu;
 }
