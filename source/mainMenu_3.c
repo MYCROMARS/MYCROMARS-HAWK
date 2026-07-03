@@ -4,7 +4,7 @@
 void mainMenu_3(int *m)
 {
     // Output
-    printf("\n*** INPUT MENU ***");
+    printf("\n*** INPUT MENU ***\n");
     printf("Press: (0) EXIT | (1) INPUT-A | (2) INPUT-B\n");
     printf("Your Input: ");
 
@@ -23,7 +23,7 @@ void mainMenu_3(int *m)
                 *m = 0;
 
                 // Output
-                printf("### EXIT Input ###\n\n");
+                printf("### EXIT ###\n");
                 break;
 
         case 1:
@@ -41,7 +41,11 @@ void mainMenu_3(int *m)
                 *m = 0;
 
                 // Output
-                printf("### END Input ###\n\n");
+                printf("### END ###\n");
                 break;
     }
+
+    // Output
+    printf("\n### INPUT END ###\n");
+    printf(".......................\n");
 }

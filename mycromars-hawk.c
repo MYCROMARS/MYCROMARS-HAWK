@@ -18,11 +18,11 @@ char buffer[50];
 // Catch invalid input
 void scanString0(void){
     // Input
-    scanf("%s", &buffer);
+    scanf("%s", &buffer[0]);
 }
 
 // Main function
-int main(void)
+int main()
 {
     // Output
     printf("\n");
@@ -127,7 +127,7 @@ int main(void)
         // Output
         printf("\nInput is not a number\n\n");
 
-        // Funktion: Catch invalid input
+        // function: Catch invalid input
         scanString0();
 
         // Jump to start

@@ -40,7 +40,4 @@ void array_d(void)
     for(x=0; x<7; x++)
         // Output
         printf("Result: %d\n", value[x]);
-    
-    // Output
-    printf("\n");
 } 

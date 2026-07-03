@@ -52,5 +52,5 @@ void structure_a(void)
     // Output:
     printf("House 2:\n");
     printf("The Apartment 1 has %d Windows, and %d Doors.\n", ha2_apartment_1.window, ha2_apartment_1.door);
-    printf("The Apartment 2 has %d Windows, and %d Doors.\n\n", ha2_apartment_2.window,ha2_apartment_2.door);
+    printf("The Apartment 2 has %d Windows, and %d Doors.\n", ha2_apartment_2.window,ha2_apartment_2.door);
 }

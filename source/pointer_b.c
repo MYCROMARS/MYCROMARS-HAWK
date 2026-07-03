@@ -29,5 +29,5 @@ void pointer_b(void)
     printf("Pointer 3: %d\n", *(pointer+3));
     printf("Pointer 4: %d\n", *(pointer+4));
     printf("Pointer 5: %d\n", *(pointer+5));
-    printf("Pointer 6: %d\n\n", *(pointer+6));
+    printf("Pointer 6: %d\n", *(pointer+6));
 }

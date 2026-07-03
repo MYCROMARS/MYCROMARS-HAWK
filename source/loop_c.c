@@ -20,7 +20,4 @@ void loop_c(void)
         // Output
         printf("%d. Sunday: %d\n", value_1, sunday);
     }
-
-    // Output
-    printf("\n");
 }

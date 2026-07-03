@@ -16,7 +16,4 @@ void loop_f(void)
         // Output
         printf("x= %d y= %d\n", x, y);
     }
-   
-    // Output
-    printf("\n");
 }

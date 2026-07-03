@@ -16,6 +16,7 @@ void mainMenu_2(int *m)
     // Function: Delay A
     delay_a(value);
     
-    // Assign
-    value = 0;
+    // Output
+    printf("\n### DELAY END ###\n");
+    printf(".......................\n");
 }

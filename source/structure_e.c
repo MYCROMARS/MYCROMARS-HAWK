@@ -44,5 +44,5 @@ void structure_e(void)
     
     printf("Apartment_1 3, room_1 1 value:\t %d\n", eh1_apartment_1[2].room_1[0]);
     printf("Apartment_1 3, room_1 2 value:\t %d\n", eh1_apartment_1[2].room_1[1]);
-    printf("Apartment_1 3, room_1 3 value:\t %d\n\n", eh1_apartment_1[2].room_1[2]);
+    printf("Apartment_1 3, room_1 3 value:\t %d\n", eh1_apartment_1[2].room_1[2]);
 } 

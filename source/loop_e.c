@@ -52,5 +52,5 @@ void loop_e(void){
     }
 
     // Output
-    printf("\n\n");
+    printf("\n");
 }

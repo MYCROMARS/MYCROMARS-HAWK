@@ -29,7 +29,4 @@ void array_e(void)
     for(x=0; x<7; x++)
         // Output
         printf("Value #%d %d = duplicate = %d\n", x, value[x], duplicate[x]);
-
-    // Output
-    printf("\n");
 } 

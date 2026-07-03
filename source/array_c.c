@@ -32,7 +32,4 @@ void array_c(void)
     for(x=0; x<7; x++)
         // Output
         printf("Output #%d %.2f\n", x+1, value[x]);
-
-    // Output
-    printf("\n");
 } 

@@ -26,7 +26,7 @@ void mainMenu_9(int *m)
                 *m = 0;
 
                 // Output
-                printf("### EXIT MALLOC ###\n\n");
+                printf("### EXIT ###\n");
                 break;
 
         case 1:
@@ -44,7 +44,11 @@ void mainMenu_9(int *m)
                 *m = 0;
 
                 // Output
-                printf("### END MALLOC ###\n\n");
+                printf("### END ###\n");
                 break;
     }
+
+    // Output
+    printf("\n### MALLOC END ###\n");
+    printf(".......................\n");
 } 

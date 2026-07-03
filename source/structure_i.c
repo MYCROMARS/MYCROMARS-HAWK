@@ -17,7 +17,7 @@ typedef struct house_i2 {
 void print_i1(ih2_datatype ih2_apartment_1){
     // Output
     printf("value xx: %d\n", ih2_apartment_1.xx);
-    printf("value yy: %d\n\n", ih2_apartment_1.yy);
+    printf("value yy: %d\n", ih2_apartment_1.yy);
 }
 
 // Function: Structure directory pointer

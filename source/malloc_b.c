@@ -80,16 +80,10 @@ void malloc_b(void)
         printf("store[%u]: %u\n", i, store[i]);
     }
     
-    // Output:
-    printf("\nMALLOC END\n");
-
     // Conditional statement
     if (store != NULL) {
     
         // Clear memory
         free(store);
     }
-
-    // Exit
-    exit(EXIT_SUCCESS);
 }

@@ -9,7 +9,7 @@ void mainMenu_0(int *m)
 {
     // Output
     printf("\n### Program END ###\n");
-    printf("************************");
+    printf("*******************\n\n");
 
     // Exit
     exit(EXIT_SUCCESS);

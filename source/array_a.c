@@ -30,5 +30,5 @@ void array_a(void)
     printf("Value 3; 4*2= %d\n", value[3]);
     printf("Value 4; 5*2= %d\n", value[4]);
     printf("Value 5; 6*2= %d\n", value[5]);
-    printf("Value 6; 7*2= %d\n\n", value[6]);
+    printf("Value 6; 7*2= %d\n", value[6]);
 } 

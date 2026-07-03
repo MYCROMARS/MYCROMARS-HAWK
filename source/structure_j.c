@@ -18,7 +18,7 @@ typedef struct house_j1{
 void print_j1(jh1_datatype jh1_apartment_1)
 {
     // Output
-    printf("value_1: %d, value_2: %d, text: %s\n\n", jh1_apartment_1.value_1,
+    printf("value_1: %d, value_2: %d, text: %s\n", jh1_apartment_1.value_1,
     jh1_apartment_1.value_2, jh1_apartment_1.text_1);
 }
 

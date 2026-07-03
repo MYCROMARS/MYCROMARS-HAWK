@@ -28,7 +28,7 @@ void mainMenu_7(int *m)
                 *m = 0;
 
                 // Output
-                printf("### EXIT LOOP ###\n\n");
+                printf("### EXIT ###\n");
                 break;
 
         case 1:
@@ -71,7 +71,11 @@ void mainMenu_7(int *m)
                 *m = 0;
 
                 // Output
-                printf("### END LOOP ###\n\n");
+                printf("### END ###\n");
                 break;
     }
+
+    // Output
+    printf("\n### LOOP END ###\n");
+    printf(".......................\n");
 }

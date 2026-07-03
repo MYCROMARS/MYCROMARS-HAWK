@@ -23,10 +23,10 @@ typedef struct house_1
 void start(void)
 {
     // on Windows: Clear screen
-    system("cls");
+    //system("cls");
 
     // on macOS: Clear screen
-    //system("clear");
+    system("clear");
 
     // Output
     printf("To start Press 'y'\n");
@@ -80,6 +80,6 @@ void structure_k(void)
         input(kh1_apartment_1);
     }
     else{
-        printf("! wrong !\n\n");
+        printf("! wrong !\n");
     }
 } 

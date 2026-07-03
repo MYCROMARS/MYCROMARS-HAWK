@@ -35,7 +35,7 @@ void mainMenu_5(int *m)
                 *m = 0;
 
                 // Output
-                printf("### EXIT Pointer ###\n\n");
+                printf("### EXIT ###\n");
                 break;
 
         case 1:
@@ -61,7 +61,7 @@ void mainMenu_5(int *m)
                 pointer_d(&value_1);
 
                 // Output
-                printf("Int value 1: %d\n\n", value_1);
+                printf("Int value 1: %d\n", value_1);
                 break;
         
         case 5:
@@ -75,7 +75,7 @@ void mainMenu_5(int *m)
                 pointer_e(pointer_1);
 
                 // Output
-                printf("Int value 2: %d\n\n", value_2);
+                printf("Int value 2: %d\n", value_2);
                 break;
 
         case 6:
@@ -98,14 +98,18 @@ void mainMenu_5(int *m)
                 pointer_f(pointer_2);
 
                 // Output
-                printf("Int value 3: %d\n\n", value_3);
+                printf("Int value 3: %d\n", value_3);
                 
         default:
                 // Assign
                 *m = 0;
 
                 // Output
-                printf("### END Pointer ###\n\n");
+                printf("### END ###\n");
                 break;
     }
+
+    // Output
+    printf("\n### POINTER END ###\n");
+    printf(".......................\n");
 }  

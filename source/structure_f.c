@@ -33,5 +33,5 @@ void structure_f(void)
     fh1_apartment_2 = fh1_apartment_1;
     
     // Output
-    printf("Apartment 2, value:\t %d\n\n", fh1_apartment_2.value);
+    printf("Apartment 2, value:\t %d\n", fh1_apartment_2.value);
 } 

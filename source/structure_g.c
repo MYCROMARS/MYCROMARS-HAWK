@@ -49,5 +49,5 @@ void structure_g(void)
     printf("g_pointer_1 value_2: %ld\n\n", g_pointer_1->value_2);
     
     printf("Address g_pointer_1 value_1: %p\n", &g_pointer_1->value_1);
-    printf("Address g_pointer_1 value_2: %p\n\n", &g_pointer_1->value_2);
+    printf("Address g_pointer_1 value_2: %p\n", &g_pointer_1->value_2);
 } 

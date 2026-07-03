@@ -38,5 +38,5 @@ void calculation_a(void)
     sum = (value_1 + value_2);
 
     // Output
-    printf("Sum: %d\n\n", sum);
+    printf("Sum: %d\n", sum);
 }

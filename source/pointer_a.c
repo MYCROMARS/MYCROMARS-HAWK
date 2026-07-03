@@ -37,5 +37,5 @@ void pointer_a(void) {
     // Output
     printf("change pointer\n");
     printf("*p: %d\n", *p);
-    printf("value: %d\n\n", value);
+    printf("value: %d\n", value);
 } 

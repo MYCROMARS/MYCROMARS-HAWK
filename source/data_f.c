@@ -90,6 +90,6 @@ void data_f(void)
         fclose(read);
         
         // Output
-        puts("File closed.\n");
+        puts("File closed.");
     }
 }

@@ -23,6 +23,6 @@ void malloc_a(void)
     printf("sizeof int: %ld\n", sizeof(int));
     printf("Size of *pointer: %lu\n", sizeof(*pointer));
     printf("7 * sizeof int: %ld\n", 7 * sizeof(int));
-    printf("Bytes reserved: %ld \n\n", 7 * sizeof(int));
+    printf("Bytes reserved: %ld \n", 7 * sizeof(int));
 } 
 

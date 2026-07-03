@@ -28,7 +28,7 @@ void mainMenu_6(int *m)
                 *m = 0;
                 
                 // Output
-                printf("### EXIT ARRAY ###\n\n");
+                printf("### EXIT ###\n");
                 break;
 
         case 1:
@@ -66,7 +66,11 @@ void mainMenu_6(int *m)
                 *m = 0;
                 
                 // Output
-                printf("### END ARRAY ###\n\n");
+                printf("### END ###\n");
                 break;
     } 
+
+    // Output
+    printf("\n### ARRAY END ###\n");
+    printf(".......................\n");
 }

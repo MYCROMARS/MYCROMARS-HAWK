@@ -29,7 +29,4 @@ void loop_d(void){
         // Output
         putchar('\n');
     }
-
-    // Output
-    printf("\n");
 } 

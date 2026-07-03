@@ -23,5 +23,4 @@ void output_a(void) {
     putc('l', stdout);
     putc('d', stdout);
     putc('\n', stdout);
-    printf("\n");
 }

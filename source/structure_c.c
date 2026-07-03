@@ -68,5 +68,5 @@ void structure_c(void){
     printf("House 1, apartment 1, room 1, box 1, toy 2: %s.\n", ch2_apartment_1.ch1_apartment_2.toy_2);
     printf("House 1, apartment 1, room 1, box 1, toy 3: %s.\n\n", ch2_apartment_1.ch1_apartment_2.toy_3);
     
-    printf("House 1, apartment 1, room 2, box 1, toy 1: %s.\n\n", ch2_apartment_1.ch3_apartment_1.toy_1);
+    printf("House 1, apartment 1, room 2, box 1, toy 1: %s.\n", ch2_apartment_1.ch3_apartment_1.toy_1);
 } 

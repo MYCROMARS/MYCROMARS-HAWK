@@ -22,7 +22,4 @@ void loop_a(void)
         // Assign
         value++;
     }
-
-    // Output
-    printf("\n");
 }

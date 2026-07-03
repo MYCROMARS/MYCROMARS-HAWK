@@ -51,5 +51,5 @@ void array_b(void)
     printf("Value [0][0]*2: %d\n", value[0][0]);
     printf("Value [0][1]*2: %d\n", value[0][1]);
     printf("Value [0][2]*2: %d\n", value[0][2]);
-    printf("Value [0][3]*2: %d\n\n", value[0][3]);
+    printf("Value [0][3]*2: %d\n", value[0][3]);
 } 

@@ -41,6 +41,6 @@ void data_a(void)
         fclose(save);
         
         // Output
-        puts("File closed.\n");
+        puts("File closed.");
     }
 }

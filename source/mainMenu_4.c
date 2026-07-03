@@ -5,4 +5,8 @@ void mainMenu_4(int *m)
 {
     // Function: Output A
     output_a();
+
+    // Output
+    printf("\n### OUTPUT END ###\n");
+    printf(".......................\n");
 }

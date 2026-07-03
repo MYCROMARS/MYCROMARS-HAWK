@@ -43,7 +43,4 @@ void array_f(void)
     for (x = 0; x < 4; x++)
         // Qtch to Rudi
         printf("char: %c +1 = %c\n", charText[x], charText[x]+1);
-
-    // Output
-    printf("\n");
 }

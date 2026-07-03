@@ -49,5 +49,5 @@ void structure_b(void){
     
     // Output
     printf("1. Char Array string: %s\n", hb2_apartment_1.y);
-    printf("2. Char Array String: %s\n\n", hb2_apartment_1.text_1);
+    printf("2. Char Array String: %s\n", hb2_apartment_1.text_1);
 }

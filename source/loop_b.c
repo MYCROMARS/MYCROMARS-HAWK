@@ -35,7 +35,4 @@ void loop_b(void)
         value_4++;
     }
     */
-
-    // Output
-    printf("\n");
 } 

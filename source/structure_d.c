@@ -42,5 +42,4 @@ void structure_d(void)
     printf("value 3, double %%g:\t %g\n", dh1_apartment_1.value_3);
     printf("value 3, double %%e:\t %e\n", dh1_apartment_1.value_3);
     printf("value 3, double %%.2f:\t %.2f\n", dh1_apartment_1.value_3);
-    printf("\n");
 } 

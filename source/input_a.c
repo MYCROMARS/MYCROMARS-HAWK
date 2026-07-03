@@ -59,8 +59,8 @@ void input_a(void)
     {
         // Output
         printf("*** Input a sting ***\n\n");
-        printf("INPUT int with getchar() loop.\n");
-        printf("Exit with: WindowsOS: (ctrl + z & enter) | macOS: (controle + z & enter)\n");
+        printf("Input with getchar() loop.\n");
+        printf("Exit with: WindowsOS: (ctrl + z & enter) | macOS: (controle + z)\n");
         printf("Input some characters: ");
 
         // While loop
@@ -79,6 +79,6 @@ void input_a(void)
     }
     else{
         // Output
-        printf("Input not correct!\n\n");
+        printf("Input not correct!\n");
     }
 }

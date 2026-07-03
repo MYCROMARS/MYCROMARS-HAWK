@@ -23,7 +23,4 @@ void loop_g(void)
         x++;
         y++;
     }
-
-    // Output
-    printf("\n");
 } 

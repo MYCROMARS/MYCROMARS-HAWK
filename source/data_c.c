@@ -55,7 +55,7 @@ void data_c(void)
         fclose(read);
         
         // Output
-        puts("File closed\n\n");
+        puts("File closed.");
     }
     
     /*
@@ -115,7 +115,7 @@ void data_c(void)
         fclose(read);
         
         // Output
-        puts("File closed\n\n");
+        puts("File closed\n");
     }
     */
 } 

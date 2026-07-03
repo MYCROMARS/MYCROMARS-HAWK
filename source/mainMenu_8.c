@@ -28,7 +28,7 @@ void mainMenu_8(int *m)
                 *m = 0;
 
                 // Output
-                printf("### EXIT STRUCTURE ###\n\n");
+                printf("### EXIT ###\n");
                 break;
 
         case 1:
@@ -91,7 +91,11 @@ void mainMenu_8(int *m)
                 *m = 0;
 
                 // Output
-                printf("### END STRUCTURE ###\n\n");
+                printf("### END ###\n");
                 break;
     }
+
+    // Output
+    printf("\n### STRUCTURE END ###\n");
+    printf(".......................\n");
 } 

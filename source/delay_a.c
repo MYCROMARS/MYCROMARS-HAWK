@@ -54,10 +54,6 @@ void delay_a(double value_1)
     }
     else if (menu == 0){
         // Output
-        printf("### Exit Delay ###\n\n");
-    }
-    else {
-        // Output
-        printf("### End Delay ###\n\n");
+        printf("### Exit ###\n");
     }
 }

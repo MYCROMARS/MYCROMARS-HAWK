@@ -32,7 +32,4 @@ void pointer_c(void)
         // Assign
         pointer++;
     }
-    
-    // Output: line break
-    printf("\n");
 }
