@@ -6,6 +6,7 @@
 
 // Typedef
 typedef struct house_i2 {
+    // Create
     int xx;
     int yy;
     
@@ -14,12 +15,14 @@ typedef struct house_i2 {
 
 // Function: Structure directory
 void print_i1(ih2_datatype ih2_apartment_1){
+    // Output
     printf("value xx: %d\n", ih2_apartment_1.xx);
     printf("value yy: %d\n\n", ih2_apartment_1.yy);
 }
 
-// Function: Structure directory pointer, assignment
+// Function: Structure directory pointer
 void del(ih2_datatype *ih2_pointer_1){
+    // Assign
     ih2_pointer_1->xx = 0;
     ih2_pointer_1->yy = 0;
 }
@@ -33,6 +36,7 @@ void structure_i(void)
 
     // Typedef Structure
     typedef struct house_ih1 {
+        // Create
         int x;
         int y;
 
@@ -52,7 +56,6 @@ void structure_i(void)
     // Assign
     ih1_pointer_1 = &ih1_apartment_1;
 
-    // Assign
     ih1_pointer_1->x = 0;
     ih1_pointer_1->y = 1;
 

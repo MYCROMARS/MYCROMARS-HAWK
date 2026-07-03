@@ -12,6 +12,7 @@ void structure_f(void)
     
     // Structure
     struct house_f1 {
+        // Create
         short int value;
     };
     

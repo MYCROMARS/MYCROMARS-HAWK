@@ -15,6 +15,7 @@ void loop_c(void)
     // Create
     int value_1;
 
+    // For loop
     for(value_1=1; sunday<32; value_1++, sunday+=7){
         // Output
         printf("%d. Sunday: %d\n", value_1, sunday);

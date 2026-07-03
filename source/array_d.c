@@ -10,10 +10,10 @@ void array_d(void)
     // Output
     printf("### Array D: Switch value 1 & 7 ###\n\n");
 
-    // create & Assign
+    // Create & assign
     int value[] = {1, 2, 3, 4, 5, 6, 7};
 
-    // create
+    // Create
     int storage;
     int x;
 
@@ -22,7 +22,8 @@ void array_d(void)
 
     // For loop
     for(x=0; x<7; x++)
-    printf("Value: %d\n", value[x]);
+        // Output
+        printf("Value: %d\n", value[x]);
 
     // Output
     printf("\n");
@@ -37,7 +38,8 @@ void array_d(void)
 
     // For loop
     for(x=0; x<7; x++)
-    printf("Result: %d\n", value[x]);
+        // Output
+        printf("Result: %d\n", value[x]);
     
     // Output
     printf("\n");

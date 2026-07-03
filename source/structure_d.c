@@ -13,6 +13,7 @@ void structure_d(void)
     
     // Structure
     struct house_d1 {
+        // Create
         long int value_1;
         float value_2;
         double value_3;

@@ -13,6 +13,7 @@ void structure_g(void)
     
     // Structure
     struct house_g1 {
+        // Create
         short int value_1;
         long int value_2;
     };

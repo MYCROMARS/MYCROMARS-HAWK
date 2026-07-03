@@ -3,6 +3,8 @@
 // ALEXANDER RUDI
 // MYCROMARS 2024 ... 2026
 // Licensed: GNU General Public License v3.0
+// https://github.com/MYCROMARS/MYCROMARS-HAWK
+// https://www.mycromars.com
 
 // header file
 #include "header.h"
@@ -10,7 +12,7 @@
 // useful:
 //#include <windows.h>
 
-// Create & assign (initialize)
+// Create 
 char buffer[50];
 
 // Catch invalid input
@@ -35,7 +37,7 @@ int main(void)
     int menu = 0;
     int menuB = 0;
 
-    // MAIN MENU, go here 
+    // Jump mark: start
     mainMenu:
 
     // Output
@@ -55,7 +57,7 @@ int main(void)
             // Output
             printf("\nInput is wrong, not 1...10\n\n");
 
-            // Go here 
+            // Jump to start
             goto mainMenu;
         }
 
@@ -111,7 +113,7 @@ int main(void)
                     break;
 
             case 10:
-                    /* Function: Malloc */
+                    /* Function: Data */
                     mainMenu_10(&menuB);
                     break;
 

@@ -8,7 +8,7 @@
 void pointer_e(int *pointer){
 
     // Output
-    printf("### POINTER E: Address of pointer to function (a) ###\n\n");
+    printf("### POINTER E: Address of pointer to function ###\n\n");
     printf("Pointer: %d\n", *pointer);
 
     // Assign

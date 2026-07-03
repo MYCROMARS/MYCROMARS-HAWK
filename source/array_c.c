@@ -11,7 +11,7 @@ void array_c(void)
     printf("### Array C: Input value's 1...7 ###\n\n");
     printf("Value input 1...7:\n");
 
-    // create
+    // Create
     float value[7];
     int x;
 
@@ -30,8 +30,9 @@ void array_c(void)
 
     // For loop
     for(x=0; x<7; x++)
+        // Output
+        printf("Output #%d %.2f\n", x+1, value[x]);
 
     // Output
-    printf("Output #%d %.2f\n", x+1, value[x]);
     printf("\n");
 } 

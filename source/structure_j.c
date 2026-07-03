@@ -6,6 +6,7 @@
 
 // Typedef
 typedef struct house_j1{
+    // Create
     int value_1;
     int value_2;
     char text_1[14];
@@ -84,7 +85,7 @@ void structure_j(void)
     jh1_apartment_2.value_1 = 10;
     jh1_apartment_2.value_2 = 70;
 
-    // Assign: need #include <string.h>
+    // Assign: need <string.h>
     strcpy(jh1_apartment_2.text_1, "Car");
 
     // Output:

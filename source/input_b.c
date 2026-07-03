@@ -24,7 +24,7 @@ void input_b(void)
     // Create
     int value_1;
 
-    // Go here 
+    // Jump mark: start
     start:
 
     // Output
@@ -46,7 +46,7 @@ void input_b(void)
         // Function: Catch invalid input
         scanString();
         
-        // Go here 
+        // Jump to start
         goto start;
     }
 }

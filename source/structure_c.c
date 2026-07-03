@@ -13,6 +13,7 @@ void structure_c(void){
 
     // Structure 1
     struct house_c1 {
+        // Create
         char toy_1[15];
         char toy_2[15];
         char toy_3[15];
@@ -32,6 +33,7 @@ void structure_c(void){
     
     // Structure 2: Struckture in Structure
     struct house_c2 {
+        // Create
         short int value_1;
 
         // Structure 1, Apartment 2: Directory (declaration)
@@ -39,6 +41,7 @@ void structure_c(void){
 
         // Structure 3
         struct house_c3 {
+            // Create
             char toy_1[10];
 
           // Structure Directory (declaration)
@@ -61,11 +64,9 @@ void structure_c(void){
     // Output
     printf("House 1, apartment 1, value 1: %d\n", ch2_apartment_1.value_1);
     
-    // Output
     printf("House 1, apartment 1, room 1, box 1, toy 1: %s.\n", ch2_apartment_1.ch1_apartment_2.toy_1);
     printf("House 1, apartment 1, room 1, box 1, toy 2: %s.\n", ch2_apartment_1.ch1_apartment_2.toy_2);
     printf("House 1, apartment 1, room 1, box 1, toy 3: %s.\n\n", ch2_apartment_1.ch1_apartment_2.toy_3);
     
-    // Output
     printf("House 1, apartment 1, room 2, box 1, toy 1: %s.\n\n", ch2_apartment_1.ch3_apartment_1.toy_1);
 } 

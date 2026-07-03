@@ -1,7 +1,7 @@
 // if it's not working acivate this (on macOS):
 // #include <stdio.h>
 
-// Main Menu 5: OUTPUT 
+// Main Menu 5: POINTER 
 
 // Main function
 void mainMenu_5(int *m)
@@ -84,7 +84,7 @@ void mainMenu_5(int *m)
                 // Assign
                 value_3 = 100;
 
-                // create
+                // Create
                 int *pointer_2;
 
                 // Asssign: Address of int to pointer 

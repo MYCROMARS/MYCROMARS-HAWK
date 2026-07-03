@@ -20,10 +20,10 @@ void array_f(void)
     // Output
     printf("### Array F: Char array, go one letter further ###\n\n");
 
-    // create & Assign
+    // Create & assign
     char charText[] = "Qtch";
    
-    // create
+    // Create
     int x;
 
     // Output

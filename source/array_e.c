@@ -10,23 +10,25 @@ void array_e(void)
     // Output
     printf("### Array E: Duplicate value 1...7 ###\n\n");
 
-    // create & Assign
+    // Create & assign
     int value[7] = {1, 2, 3, 4, 5, 6, 7};
 
-    // create
+    // Create
     int duplicate[7];
     int x;
 
     // For loop
     for(x=0; x<7; x++)
-    duplicate[x] = value[x];
+        // Assign
+        duplicate[x] = value[x];
 
     // Output
     puts("Values:");
 
     // For loop
     for(x=0; x<7; x++)
-    printf("Value #%d %d = duplicate = %d\n", x, value[x], duplicate[x]);
+        // Output
+        printf("Value #%d %d = duplicate = %d\n", x, value[x], duplicate[x]);
 
     // Output
     printf("\n");

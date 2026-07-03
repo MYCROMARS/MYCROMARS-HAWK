@@ -14,7 +14,7 @@ void array_a(void)
     // Create & assign: Array
     int value[ArraySize_a] = {1, 2, 3, 4, 5, 6, 7};
 
-    // Assign: Multiplication
+    // Assign: Multiply
     value[0] *= 2;
     value[1] *= 2;
     value[2] *= 2;

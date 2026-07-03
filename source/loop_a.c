@@ -13,7 +13,7 @@ void loop_a(void)
     // Assign
     int value = 1;
 
-    // Loop
+    // While Loop
     while(value <= DOZEN)
     {
         // Output

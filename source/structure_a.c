@@ -36,6 +36,7 @@ void structure_a(void)
     
     // 2. Structure: other spelling
     struct house_a2 {
+        // Create
         int window;
         int door;
         

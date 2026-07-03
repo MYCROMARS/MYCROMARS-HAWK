@@ -60,7 +60,7 @@ void input_a(void)
         // Output
         printf("*** Input a sting ***\n\n");
         printf("INPUT int with getchar() loop.\n");
-        printf("Exit with: WIN (ctrl + z & enter) | MAC (controle + z)\n");
+        printf("Exit with: WindowsOS: (ctrl + z & enter) | macOS: (controle + z & enter)\n");
         printf("Input some characters: ");
 
         // getchar() loop

@@ -8,7 +8,7 @@
 void loop_e(void){
     printf("### Loop E: For loop: Sort value 1...7 ###\n\n");
 
-    // Assign
+    // Create & assign
     const int value_1 = 7;
     int value_2[7] = {7, 6, 5, 4, 3, 2, 1};
 
@@ -20,6 +20,7 @@ void loop_e(void){
 
     // For loop
     for(x=0; x<value_1; x++){
+        // Output
         printf("%d ", value_2[x]);
     }
 
@@ -46,6 +47,7 @@ void loop_e(void){
     
     // For loop
     for(x=0; x<value_1; x++){
+        // Output
         printf("%d ", value_2[x]);
     }
 

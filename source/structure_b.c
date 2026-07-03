@@ -11,8 +11,10 @@ void structure_b(void){
 
     // Structure
     struct house_b1 {
+        // Create
         short int window;
         short int door;
+
         // Structure Directory, assign
     } hb1_apartment_1 = {4, 3}, hb1_apartment_2 = {7, 4};
 
@@ -22,9 +24,11 @@ void structure_b(void){
     
     // Structure: Char, Char Array
     struct house_b2 {
+        // Create
         char x;
         char y[3]; // must be 1 character more than required
         char text_1[32];
+        
         // Structure Directory (declaration)
     } hb2_apartment_1;
     

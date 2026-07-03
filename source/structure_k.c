@@ -12,6 +12,7 @@
 // Typedef
 typedef struct house_1
 {
+    // Create
     int value_1;
     char text_1[255];
     char text_2[255];
