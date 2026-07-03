@@ -1,7 +1,6 @@
 // if it's not working acivate this (on macOS):
 #include <stdio.h>
 #include <stdlib.h>
-// #include <string.h>
 // #include "../header/data_c.h"
 
 // Data C
@@ -19,8 +18,7 @@ void data_c(void)
     // Create
     char text[100];
     
-    // Create a pointer
-    // need <stdio.h> 
+    // Create a pointer for the file data: need <stdio.h> 
     FILE *read;
     
     // Open file
@@ -28,43 +26,56 @@ void data_c(void)
     
     // You could activate one of the following code, and deactivate all others:
     
-    // Read Numbers with: fscanf() ------------------------------------------
+    // Conditional statement: Read Numbers with: fscanf() 
     if(read == NULL)
     {
+        // Output
         puts("! error !");
         
-        // need <stdlib.h> 
+        // Exit: need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else
     {
+        // Output
         puts("!! successful !!.");
         
+        // While loop
         while (fscanf(read, "%d", &value_1) !=EOF)
         {
+            // Assign: +1
             readCount++;
         }
 
+        // Output
         printf("read value 1: %d\n", value_1);
         printf("read count: %d\n", readCount);
+
+        // close
         fclose(read);
         
+        // Output
         puts("File closed\n\n");
     }
     
     /*
-    // Read string with: fgetc() ---------------------------------------------
+    // Conditional statement: Read string with: fgetc()
     if (read != NULL)
     {
+        // Output
         printf("!! successful !!\n");
 
+        // While loop
         while ((text[readCount] = fgetc(read)) != EOF)
         {
             // Output
             putchar(text[readCount]);
+
+            // Assign: +1
             readCount++;
         }
     
+        // close 
         fclose(read);
     
         // Output not correct
@@ -74,14 +85,14 @@ void data_c(void)
     */
 
 
-    // Read string with: fscanf() ---------------------------------------------
-    /*
+   /*
+    // Conditional statement: Read string with: fscanf()
     if(read == NULL)
     {
         // Output
         puts("! error !");
         
-        // Exit
+        // Exit: need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else
@@ -89,9 +100,10 @@ void data_c(void)
         // Output
         puts("!! successful !!");
         
-        // read
+        // While loop
         while (fscanf(read, "%s", &text[0]) !=EOF)
         {
+            // Assign: +1
             readCount++;
         }
         
@@ -99,7 +111,7 @@ void data_c(void)
         printf("read text: %s\n", text);
         printf("read count: %d\n", readCount);
         
-        // Close
+        // close
         fclose(read);
         
         // Output

@@ -30,7 +30,7 @@ void input_b(void)
     // Output
     printf("Input a number: ");
 
-    // Input
+    // Conditional statement
     if (scanf("%d", &value_1)) {
         // Output
         printf("Your input was: %d\n", value_1);

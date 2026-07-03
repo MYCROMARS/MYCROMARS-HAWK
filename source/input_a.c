@@ -54,7 +54,7 @@ void input_a(void)
     printf("Your Input was: %c\n", charInput_b);
     printf(charInput_b == 'y' ? "right!\n\n" : "wrong!\n");
 
-    // continue with y
+    // Conditional statement: continue with y
     if (charInput_b == 'y')
     {
         // Output
@@ -63,13 +63,15 @@ void input_a(void)
         printf("Exit with: WindowsOS: (ctrl + z & enter) | macOS: (controle + z & enter)\n");
         printf("Input some characters: ");
 
-        // getchar() loop
+        // While loop
         while(1)
         {
             // Input
             u = getchar();
+
+            // Conditional statement
             if(u == EOF)
-            break;
+                break;
 
             // Output
             putchar(u);

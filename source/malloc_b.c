@@ -8,20 +8,23 @@
 // function
 int *startMalloc(unsigned int value) {
 
-    // Assign Pointer: malloc
+    // Create & assign: Malloc
     int *pointer = malloc(value*(sizeof(int)));
 
-    // store some data, NULL need stdio.h
+    // store some data, NULL need <stdio.h>
     if(pointer !=NULL) {
+
+        // For loop
         for (unsigned int i=0; i<value; i++) {
             
-            // assign
+            // Assign
             pointer[i] = i*i;
         }
 
-        // test pointer value
+        // Test pointer value
         //printf("pointer: %d\n", pointer);
         //printf("Address pointer: %d\n", &pointer);
+
         //printf("*pointer: %d\n", *pointer);
         //printf("pointer[0]: %d\n", pointer[0]);
         //printf("pointer[1]: %d\n", pointer[1]);
@@ -40,13 +43,13 @@ void malloc_b(void)
     // Output
     printf("### Malloc B: with input ###\n\n");
     
-    // Assign
+    // Create & assign
     unsigned int value_1 = 0;
     
     // Output
     printf("How many int multiply: ");
     
-    // Input
+    // Conditional statement: Input
     if (scanf("%u", &value_1) !=1) {
     
         // Output
@@ -55,11 +58,15 @@ void malloc_b(void)
         exit(EXIT_SUCCESS);
     }
     
-    // Assign Pointer: Function: With transfer
+    // Create & assign: Pointer: Function with transfer
     int *store = startMalloc(value_1);
 
+    // Conditional statement
     if (store == NULL){
+
+        // Output
         printf("! Error !\n");
+
         exit(EXIT_SUCCESS);
     }
     
@@ -76,11 +83,13 @@ void malloc_b(void)
     // Output:
     printf("\nMALLOC END\n");
 
+    // Conditional statement
     if (store != NULL) {
     
         // Clear memory
         free(store);
     }
 
+    // Exit
     exit(EXIT_SUCCESS);
 }

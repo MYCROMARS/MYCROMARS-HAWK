@@ -34,6 +34,7 @@ void delay_a(double value_1)
     // Output: line break
     printf("\n");
 
+    // Conditional statement
     if (menu == 1){
         // Output
         printf("*** DELAY START ***\n");

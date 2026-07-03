@@ -1,7 +1,6 @@
 // if it's not working acivate this (on macOS):
 #include <stdio.h>
 #include <stdlib.h>
-// #include <string.h>
 // #include "../header/data_d.h"
 
 // Data D
@@ -15,11 +14,10 @@ void data_d(void)
     // Create & assign
     char text_1[] = "Hello";
     
-    // Create a pointer
-    // need <stdio.h> 
+    // Create a pointer for the file data: need <stdio.h> 
     FILE *save;
     
-    // File open
+    // open
     save = fopen("save.dat", "w");
 
     if(save == NULL)
@@ -27,8 +25,7 @@ void data_d(void)
         // Output
         puts("! error !");
         
-        // Exit
-        // need <stdlib.h> 
+        // Exit: need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else{
@@ -50,7 +47,7 @@ void data_d(void)
 
     // ### Read file
 
-    // Define
+    // Create
     char text_2[20];
     
     // Create & assign
@@ -59,20 +56,19 @@ void data_d(void)
     // for testing, assign
     // strcpy(text_2,"Hello");
     
-    // Create a pointer
-    // need <stdio.h> 
+    // Create a pointer for the file data: need <stdio.h> 
     FILE *read;
     
     // open
     read = fopen("save.dat", "r");
     
+    // Conditional statement
     if(read == NULL)
     {
         // Output
         puts("! error !");
         
-        // Exit
-        // need <stdlib.h> 
+        // Exit: need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else
@@ -80,9 +76,10 @@ void data_d(void)
         // Output
         puts("!! successful !!");
         
-        // read
+        // While loop: read
         while (fscanf(read, "%s", &text_2[0]) !=EOF)
         {
+            // Assign: +1
             readCount++;
         }
 

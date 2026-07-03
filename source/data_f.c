@@ -1,7 +1,6 @@
 // if it's not working acivate this (on macOS):
 #include <stdio.h>
 #include <stdlib.h>
-// #include <string.h>
 // #include "../header/data_f.h"
 
 // Data F
@@ -16,8 +15,7 @@ void data_f(void)
     int value_1[] = {10, 70};
     int value_2[] = {100, 700};
     
-    // Create a pointer
-    // need <stdio.h> 
+    // Create a pointer for the file data: need <stdio.h> 
     FILE *save;
     
     // File open
@@ -28,8 +26,7 @@ void data_f(void)
         // Output
         puts("! Error !");
         
-        // Exit
-        // need <stdlib.h> 
+        // Exit: need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else
@@ -56,20 +53,19 @@ void data_f(void)
     // Create & assign
     int readCount = 0;
     
-    // Create a pointer
-    // need <stdio.h>
+    // Create a pointer for the file data: need <stdio.h>
     FILE *read;
     
     // open
     read = fopen("save.dat", "r");
     
+    // Conditional statement
     if(read == NULL)
     {
         // Output
         puts("! error !");
         
-        // Exit
-        // need <stdlib.h> 
+        // Exit: need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else
@@ -77,7 +73,7 @@ void data_f(void)
         // Output
         puts("!! successful !!");
         
-        // read
+        // While loop: read
         while (fscanf(read, "%d\n%d\n%d\n%d", &value_3[0], &value_3[1], &value_4[0], &value_4[1]) !=EOF)
         {
             readCount++;

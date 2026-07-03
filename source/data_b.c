@@ -1,7 +1,6 @@
 // if it's not working acivate this (on macOS):
 #include <stdio.h>
 #include <stdlib.h>
-//#include <string.h>
 // #include "../header/data_b.h"
 
 // Data B
@@ -15,20 +14,19 @@ void data_b(void)
     // Create & assign
     int value_1 = 100;
     
-    // Create a pointer
-    // need <stdio.h> 
+    // Create a pointer for the file data: need <stdio.h> 
     FILE *save;
     
     // Open file
     save = fopen("save.dat", "w");
 
+    // Conditional statement
     if(save == NULL)
     {
         // Output
         puts("! error !");
         
-        // Exit
-        // need <stdlib.h> 
+        // Exit: need <stdlib.h> 
         exit (EXIT_FAILURE);
     }
     else{

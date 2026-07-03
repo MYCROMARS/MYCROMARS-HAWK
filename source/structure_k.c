@@ -1,6 +1,5 @@
 // if it's not working acivate this (on macOS):
 // #include <stdio.h>
-// #include <string.h>
 // #include <stdlib.h>
 // #include "../header/structure_k.h"
 
@@ -47,7 +46,7 @@ void input(kh1_datatype kh1_apartment_1b)
     // Input
     scanf("%s", &text_3[0]);
 
-    // Compare, at 0 they are equal
+    // Conditional statement: Compare, at 0 they are equal
     if(strcmp(kh1_apartment_1b.text_2, text_3) == 0)
     {
         // Output
@@ -75,6 +74,7 @@ void structure_k(void)
     // Input
     getchar();
 
+    // Conditional statement
     if(getchar() == 'y'){
         // Function
         input(kh1_apartment_1);
