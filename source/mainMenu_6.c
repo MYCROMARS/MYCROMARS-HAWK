@@ -19,6 +19,7 @@ void mainMenu_6(int *m)
     // Output
     printf("\n");
 
+    // Switch-case statement
     switch (*m)
     {
         case 0:

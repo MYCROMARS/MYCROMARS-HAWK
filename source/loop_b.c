@@ -23,10 +23,15 @@ void loop_b(void)
 
     // other spelling
     /*
+    // Create & assign
     int value_4 = 0;
 
+    // For loop
     for( ; value_4<value_2; ){
+        // Output
         printf("value 3: %d\n", value_3[value_4]);
+
+        // Assign: +1
         value_4++;
     }
     */

@@ -49,7 +49,7 @@ int main(void)
 
     printf("Your input: ");
 
-    // Input
+    // Conditional statement
     if (scanf("%d", &menu)) {
 
         // Wrong number, not 1...10
@@ -60,7 +60,7 @@ int main(void)
             // Jump to start
             goto mainMenu;
         }
-
+        // Switch-case statement
         switch (menu)
         {
             case 0:

@@ -25,6 +25,7 @@ void mainMenu_5(int *m)
     int value_3;
     int value_4;
 
+    // Switch-case statement
     switch (*m)
     {
         case 0:

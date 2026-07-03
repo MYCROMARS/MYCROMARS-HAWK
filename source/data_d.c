@@ -20,6 +20,7 @@ void data_d(void)
     // open
     save = fopen("save.dat", "w");
 
+    // Conditional statement
     if(save == NULL)
     {
         // Output
