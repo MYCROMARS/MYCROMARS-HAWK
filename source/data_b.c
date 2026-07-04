@@ -30,11 +30,12 @@ void data_b(void)
         exit (EXIT_FAILURE);
     }
     else{
-        // Output
-        puts("! successful !");
         
         // save
         fprintf(save, "%d", value_1);
+
+        // Output
+        puts("! successful !");
         
         // close
         fclose(save);

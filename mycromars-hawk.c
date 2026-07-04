@@ -66,8 +66,8 @@ int main()
     printf("\n*** MAIN MENU ***\n");
     printf("Press (0) EXIT \n");
     printf("Press (1) CALCULATION | (2) DELAY | (3) INPUT | (4) OUTPUT\n");
-    printf("Press (5) Pointer | (6) ARRAY | (7) LOOP | (8) STRUCTURE\n");
-    printf("Press (9) MALLOC  | (10) DATA\n");
+    printf("Press (5) Pointer     | (6) ARRAY | (7) LOOP  | (8) STRUCTURE\n");
+    printf("Press (9) MALLOC      | (10) DATA\n");
 
     printf("Your input: ");
 

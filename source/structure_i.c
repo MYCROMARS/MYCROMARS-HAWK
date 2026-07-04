@@ -77,7 +77,7 @@ void structure_i(void)
     ih2_apartment_1.yy = 1;
 
     // Output
-    printf("Change value\n");
+    printf("\nChange value\n");
 
     // Function
     print_i1(ih2_apartment_1);
@@ -86,7 +86,7 @@ void structure_i(void)
     del(&ih2_apartment_1);
 
     // Output
-    printf("Change value\n");
+    printf("\nChange value\n");
 
     // Function
     print_i1(ih2_apartment_1);

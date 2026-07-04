@@ -34,15 +34,15 @@ void structure_e(void)
    
     // Output
     printf("House 1:\n");
-    printf("Apartment_1 1, room_1 1 value:\t %d\n", eh1_apartment_1[0].room_1[0]);
-    printf("Apartment_1 1, room_1 2 value:\t %d\n", eh1_apartment_1[0].room_1[1]);
-    printf("Apartment_1 1, room_1 3 value:\t %d\n\n", eh1_apartment_1[0].room_1[2]);
+    printf("Apartment 1, room 1 value:\t %d\n", eh1_apartment_1[0].room_1[0]);
+    printf("Apartment 1, room 2 value:\t %d\n", eh1_apartment_1[0].room_1[1]);
+    printf("Apartment 1, room 3 value:\t %d\n\n", eh1_apartment_1[0].room_1[2]);
     
-    printf("Apartment_1 2, room_1 1 value:\t %d\n", eh1_apartment_1[1].room_1[0]);
-    printf("Apartment_1 2, room_1 2 value:\t %d\n", eh1_apartment_1[1].room_1[1]);
-    printf("Apartment_1 2, room_1 3 value:\t %d\n\n", eh1_apartment_1[1].room_1[2]);
+    printf("Apartment 2, room 1 value:\t %d\n", eh1_apartment_1[1].room_1[0]);
+    printf("Apartment 2, room 2 value:\t %d\n", eh1_apartment_1[1].room_1[1]);
+    printf("Apartment 2, room 3 value:\t %d\n\n", eh1_apartment_1[1].room_1[2]);
     
-    printf("Apartment_1 3, room_1 1 value:\t %d\n", eh1_apartment_1[2].room_1[0]);
-    printf("Apartment_1 3, room_1 2 value:\t %d\n", eh1_apartment_1[2].room_1[1]);
-    printf("Apartment_1 3, room_1 3 value:\t %d\n", eh1_apartment_1[2].room_1[2]);
+    printf("Apartment 3, room 1 value:\t %d\n", eh1_apartment_1[2].room_1[0]);
+    printf("Apartment 3, room 2 value:\t %d\n", eh1_apartment_1[2].room_1[1]);
+    printf("Apartment 3, room 3 value:\t %d\n", eh1_apartment_1[2].room_1[2]);
 } 

@@ -31,11 +31,12 @@ void data_a(void)
     }
     else
     {
-        // Output
-        puts("! successful !");
-        
         // save
         fprintf(save, "%d", value_1);
+
+        // Output
+        puts("! successful !\n");
+        puts("The file was created, you can open it: save.dat\n");
         
         // close
         fclose(save);

@@ -22,6 +22,6 @@ void structure_h(void)
 
     // Output
     printf("Output:\n");
-    printf("Apartment_1 room 1 = %d\n", hh1_apartment_1.room_1);
-    printf("Apartment_1 room 2 = %d\n", hh1_apartment_1.room_2);
+    printf("Apartment 1 room 1 = %d\n", hh1_apartment_1.room_1);
+    printf("Apartment 1 room 2 = %d\n", hh1_apartment_1.room_2);
 } 

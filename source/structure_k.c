@@ -22,14 +22,21 @@ typedef struct house_1
 // Function
 void start(void)
 {
+    printf("Screen clearing configured for Windows\n");
+    printf("If clearing not works, change it at function 'start'.\n");
+    printf("Activate it for macOS and deactivate it for WindowsOS.\n\n");
+    
     // on Windows: Clear screen
     //system("cls");
-
+    //printf("Screen clearing on WindowsOS...\n\n");
+    
     // on macOS: Clear screen
     system("clear");
-
+    printf("Screen clearing on macOS...\n\n");
+    
     // Output
-    printf("To start Press 'y'\n");
+
+    printf("To start the Question Game press 'y'\n");
     printf("Input: ");
 }
 

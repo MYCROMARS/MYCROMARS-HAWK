@@ -9,8 +9,8 @@ void mainMenu_8(int *m)
     // Output
     printf("\n*** STRUCTURE MENU ***\n");
     printf("Press: (0) EXIT\n");
-    printf("Press: (1) STRUCTURE-A | (2) STRUCTURE-B | (3) STRUCTURE-C | (4) STRUCTURE-D\n");
-    printf("Press: (5) STRUCTURE-E | (6) STRUCTURE-F | (7) STRUCTURE-G | (8) STRUCTURE-H \n");
+    printf("Press: (1) STRUCTURE-A | (2) STRUCTURE-B  | (3) STRUCTURE-C | (4) STRUCTURE-D\n");
+    printf("Press: (5) STRUCTURE-E | (6) STRUCTURE-F  | (7) STRUCTURE-G | (8) STRUCTURE-H \n");
     printf("Press: (9) STRUCTURE-I | (10) STRUCTURE-J | (11) STRUCTURE-K\n");
     printf("Your Input: ");
 

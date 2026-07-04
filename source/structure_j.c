@@ -73,7 +73,7 @@ void structure_j(void)
     startFunction(&jh1_apartment_1);
 
     // Output:
-    printf("Apartment 1: with function multiply\n");
+    printf("\nApartment 1: with function multiply\n");
 
     // Function: With transfer: Structure
     print_j1(jh1_apartment_1);
@@ -89,7 +89,7 @@ void structure_j(void)
     strcpy(jh1_apartment_2.text_1, "Car");
 
     // Output:
-    printf("Apartment 2:\n");
+    printf("\nApartment 2:\n");
 
     // Function: With transfer: Structure
     print_j1(jh1_apartment_2);

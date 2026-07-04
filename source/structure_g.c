@@ -30,24 +30,24 @@ void structure_g(void)
 
     // Output
     printf("House_1:\n");
-    printf("Size of h1_apartment_1:\t\t %lu Bytes\n", sizeof(gh1_apartment_1));
-    printf("Size of h1_apartment_1.value_1:\t %lu Bytes\n", sizeof(gh1_apartment_1.value_1));
-    printf("Size of h1_apartment_1.value_2:\t %lu Bytes\n\n", sizeof(gh1_apartment_1.value_2));
+    printf("Size of Apartment 1:\t\t %lu Bytes\n", sizeof(gh1_apartment_1));
+    printf("Size of Apartment 1 value 1:\t %lu Bytes\n", sizeof(gh1_apartment_1.value_1));
+    printf("Size of Apartment 1 value 2:\t %lu Bytes\n\n", sizeof(gh1_apartment_1.value_2));
     
-    printf("Address h1_apartment_1: %p\n", &gh1_apartment_1);
-    printf("h1_apartment_1 value_1: %hd\n", gh1_apartment_1.value_1);
-    printf("h1_apartment_1 value_2: %ld\n\n", gh1_apartment_1.value_2);
+    printf("Address Apartment 1: %p\n", &gh1_apartment_1);
+    printf("Apartment 1 value 1: %hd\n", gh1_apartment_1.value_1);
+    printf("Apartment 1 value 2: %ld\n\n", gh1_apartment_1.value_2);
     
-    printf("Address h1_apartment_1 value_1: %p\n", &gh1_apartment_1.value_1);
-    printf("Address h1_apartment_1 value_2: %p\n\n", &gh1_apartment_1.value_2);
+    printf("Address Apartment 1 value 1: %p\n", &gh1_apartment_1.value_1);
+    printf("Address Apartment 1 value 2: %p\n\n", &gh1_apartment_1.value_2);
     
-    printf("Size of g_pointer_1: %lu\n\n", sizeof(*g_pointer_1));
+    printf("Size of Pointer 1: %lu\n\n", sizeof(*g_pointer_1));
     
-    printf("Address g_pointer_1: %p\n\n", &g_pointer_1);
+    printf("Address Pointer 1: %p\n\n", &g_pointer_1);
     
-    printf("g_pointer_1 value_1: %hd\n", g_pointer_1->value_1);
-    printf("g_pointer_1 value_2: %ld\n\n", g_pointer_1->value_2);
+    printf("Pointer 1 value 1: %hd\n", g_pointer_1->value_1);
+    printf("Pointer 1 value 2: %ld\n\n", g_pointer_1->value_2);
     
-    printf("Address g_pointer_1 value_1: %p\n", &g_pointer_1->value_1);
-    printf("Address g_pointer_1 value_2: %p\n", &g_pointer_1->value_2);
+    printf("Address Pointer 1 value 1: %p\n", &g_pointer_1->value_1);
+    printf("Address Pointer 1 value 2: %p\n", &g_pointer_1->value_2);
 } 

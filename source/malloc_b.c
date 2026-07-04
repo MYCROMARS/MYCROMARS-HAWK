@@ -32,7 +32,8 @@ int *startMalloc(unsigned int value) {
 
     // Output
     printf("sizeof int: %ld\n", sizeof(int));
-    printf("sizeof int * %d: %ld\n\n", value, value * sizeof(int));
+    printf("sizeof int * %d: %ld\n", value, value * sizeof(int));
+    printf("Bytes reserved: %ld \n\n", value * sizeof(int));
 
     return pointer;
 }
@@ -71,7 +72,7 @@ void malloc_b(void)
     }
     
     // Output
-    printf("Output:\n");
+    printf("Output Data:\n");
 
     // For loop
     for (unsigned i=0; i<value_1; i++) {
@@ -85,5 +86,7 @@ void malloc_b(void)
     
         // Clear memory
         free(store);
+
+        printf("\nMemory cleared\n");
     }
 }

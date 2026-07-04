@@ -34,7 +34,7 @@ void input_b(void)
     if (scanf("%d", &value_1)) {
         // Output
         printf("Your input was: %d\n", value_1);
-        printf("Input is correct.\n\n");
+        printf("Input is correct.\n");
     }
     else{
         // Output
