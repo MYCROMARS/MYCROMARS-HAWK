@@ -38,7 +38,7 @@ void data_c(void)
     else
     {
         // Output
-        puts("!! successful !!.");
+        puts("!! successful !!");
         
         // While loop
         while (fscanf(read, "%d", &value_1) !=EOF)

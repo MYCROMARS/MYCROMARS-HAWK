@@ -51,7 +51,8 @@ int main()
 
     printf("MYCROMARS HAWK Copyright (C) 2026 Alexander Rudi\n");
     printf("This program comes with ABSOLUTELY NO WARRANTY\n");
-    printf("This is free software, and you are welcome to redistribute it under certain conditions.\n");
+    printf("This is free software, and you are welcome to redistribute it \
+        under certain conditions.\n");
     printf("Licensed: GNU General Public License v3.0\n");
     printf("https://www.mycromars.com\n");
     
