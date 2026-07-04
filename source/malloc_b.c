@@ -1,7 +1,7 @@
 // if it's not working acivate this (on macOS):
-#include <stdio.h>
-#include <stdlib.h>
-//#include "../header/malloc_b.h"
+// #include <stdio.h>
+// #include <stdlib.h>
+// #include "../header/malloc_b.h"
 
 // Malloc B
 

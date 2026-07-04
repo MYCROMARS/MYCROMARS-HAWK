@@ -1,6 +1,6 @@
 // if it's not working acivate this (on macOS):
-#include <stdio.h>
-#include <stdlib.h>
+// #include <stdio.h>
+// #include <stdlib.h>
 // #include "../header/data_f.h"
 
 // Data F

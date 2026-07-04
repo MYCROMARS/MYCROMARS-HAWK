@@ -1,5 +1,5 @@
 // if it's not working acivate this (on macOS):
-#include <stdio.h>
+// #include <stdio.h>
 // #include "../header/output_a.h"
 
 // Output A
