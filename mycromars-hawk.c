@@ -1,6 +1,6 @@
 /*
-MYCROMARS HAWK V1.0.5
-C programming basics
+MYCROMARS HAWK 
+C Programming Basics V1.0.5
 
 Copyright (C) 2026 Alexander Rudi
 Licensed: GNU General Public License v3.0
@@ -46,8 +46,8 @@ int main()
 {
     // Output
     printf("\n");
-    printf("MYCROMARS HAWK V1.0.5\n");
-    printf("C programming basics\n\n");
+    printf("MYCROMARS HAWK\n");
+    printf("C Programming Basics V1.0.5\n\n");
 
     printf("MYCROMARS HAWK Copyright (C) 2026 Alexander Rudi\n");
     printf("This program comes with ABSOLUTELY NO WARRANTY\n");

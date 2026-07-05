@@ -1,5 +1,5 @@
 *** MYCROMARS HAWK V1.0.5 ***
-*** C programming basics ***
+*** C Programming Basics ***
 
 Copyright (C) 2026 Alexander Rudi
 Licensed: GNU General Public License v3.0
