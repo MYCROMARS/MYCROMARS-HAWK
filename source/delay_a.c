@@ -50,7 +50,6 @@ void delay_a(double value_1)
                 counter++;
             }
         }
-        printf("\n");
     }
     else if (menu == 0){
         // Output
